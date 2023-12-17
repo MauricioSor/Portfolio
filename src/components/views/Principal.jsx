@@ -1,14 +1,15 @@
-import { Container } from "react-bootstrap";
-import muestra from "../../assets/foto.png"
 import Tecnologias from "./Tecnologias";
+import Biografia from "./Biografia";
 
 const Principal = () => {
     return (
-        <Container className="text-center main d-flex align-items-center">
-        {/* <AcercaDeMi/> */}
+        <>
+        <Biografia/>
+        <SoftSkillss/>
         <Tecnologias/>
+        <Proyectos/>
         {/* <Contacto/> */}
-        </Container>
+        </>
     );
 };
 

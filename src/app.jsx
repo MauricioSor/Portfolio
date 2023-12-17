@@ -1,7 +1,4 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { useState } from 'preact/hooks'
-import preactLogo from './assets/preact.svg'
-import viteLogo from '/vite.svg'
 import './app.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Menu from './components/common/Menu.jsx'
