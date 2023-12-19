@@ -1,25 +1,103 @@
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
+/* 
+main {
+    min-height: 100vh;
+    flex-grow: 1;
+    flex-direction: column;
+} */
+
+/* slider de tecnologias */
+.slider {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.preact:hover {
-  filter: drop-shadow(0 0 2em #673ab8aa);
+.slider .slide-track {
+    display: flex;
+    animation: scroll 10s linear infinite;
+    width: calc(200px *9);
+    -webkit-animation: scroll 10s linear infinite;
 }
 
-.card {
-  padding: 2em;
+.slider .slide {
+    width: 200px;
 }
 
-.read-the-docs {
-  color: #888;
+.slider .slide img {
+    width: 100%;
+}
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px *10));
+        transform: translateX(calc(-200px *10));
+    }
+}
+/*  */
+
+
+/* Fondo de Matrix */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1fda25;
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2ac231;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.absolute {
+    position: absolute;
+}
+.inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.matrix-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.texto{
+    color: #2ac231;
+
+}
+.bg-matrix{
+    background-color: #2ac231;
 }
