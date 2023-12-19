@@ -5,21 +5,6 @@ main {
     flex-direction: column;
 }
 
-body {
-    background: url(./assets/fondos/fondo1.png) no-repeat center fixed;
-    background-size: cover;
-    cursor: url(../src/assets/patita.png),auto;
-    font-family: 'Rubik', sans-serif;
-}
-.cursor{
-    width: 20px;
-    height: 20px;
-    border: 1px solid black;
-    border-radius: 50%;
-    position: absolute;
-
-}
-
 #color-fondo-carrousel {
     background-color: rgba(247, 238, 227, 0.601);
 }

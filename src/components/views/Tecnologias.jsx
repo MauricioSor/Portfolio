@@ -11,6 +11,8 @@ import Imagen9 from "../../assets/tecnologias/transformarr.png"
 
 const Tecnologias = () => {
     return (
+        <>
+        <h6 className='display-6'>Tecnologias</h6>
         <div className='d-flex justify-content-center align-items-center  slider'>
             <div className="slide-track">
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
@@ -98,6 +100,7 @@ const Tecnologias = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 
