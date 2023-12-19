@@ -16,7 +16,7 @@ import Imagen14 from "../../assets/tecnologias/gitlab.png"
 import Imagen15 from "../../assets/tecnologias/trello.png"
 import Imagen16 from "../../assets/tecnologias/sqlServer.png"
 import Imagen17 from "../../assets/tecnologias/csharp.png"
-import Imagen18 from "../../assets/tecnologias/netframework.png"
+import Imagen18 from "../../assets/tecnologias/netFramework.png"
 import Imagen19 from "../../assets/tecnologias/mysql.png"
 
 const Tecnologias = () => {
