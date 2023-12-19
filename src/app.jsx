@@ -3,7 +3,7 @@ import './app.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Menu from './components/common/Menu.jsx'
 import Footer from './components/common/Footer.jsx'
-import Principal from './components/views/Principal.JSX'
+import Principal from './components/views/Principal.jsx'
 
 export function App() {
 
