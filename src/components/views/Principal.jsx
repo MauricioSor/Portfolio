@@ -4,6 +4,7 @@ import MatrixAnimation from "./MatrixAnimation";
 import SoftSkills from "./SoftSkills"
 import Proyectos from "./Proyectos/Proyectos";
 
+
 const Principal = () => {
     return (
         <>
