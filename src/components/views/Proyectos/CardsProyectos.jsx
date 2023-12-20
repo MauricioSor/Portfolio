@@ -2,7 +2,7 @@ import React from 'react';
 import {Card,Button,Container,Row} from"react-bootstrap"
 import Imagen1 from "../../../assets/proyectosPortada/rollingfit.png"
 import Imagen2 from "../../../assets/proyectosPortada/tucuparking.png"
-import Imagen3 from "../../../assets/proyectosPortada/blogrecetas.png"
+import Imagen3 from "../../../assets/proyectosPortada/blogRecetas.png"
 import Imagen4 from "../../../assets/proyectosPortada/traingym.png"
 import Imagen5 from "../../../assets/proyectosPortada/clima.png"
 import Imagen6 from "../../../assets/proyectosPortada/noticias.png"
