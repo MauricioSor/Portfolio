@@ -9,7 +9,7 @@ const CardsProyectos = ({ item }) => {
                 <Card.Body>
                 <Card.Img variant="top" src="holder.js/100px180" />
                     <Card.Text>{item.text}</Card.Text>
-                    <button className='btn border rounded bg-matrix'>Ir a la web</button>
+                    <Button id='boton'><a href={item.link} className='text-black text-decoration-none fw-bold'>Ir a la web</a></Button>
                 </Card.Body>
             </Card>
         </Container>

@@ -106,6 +106,6 @@ body, html {
 :root {
   --success-color: #1fda25; /* Nuevo color para 'success' */
 }
-#file{
-    background-color: #1fda25;
+#boton{
+    background-color: #2ac231;
 }
