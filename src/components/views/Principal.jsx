@@ -1,6 +1,8 @@
 import Tecnologias from "./Tecnologias";
 import Biografia from "./Biografia";
 import MatrixAnimation from "./MatrixAnimation";
+import SoftSkills from "./SoftSkills"
+import Proyectos from "./Proyectos/Proyectos";
 
 const Principal = () => {
     return (
@@ -9,9 +11,9 @@ const Principal = () => {
             <MatrixAnimation className="absolute inset-0" id="fondo" />
                 <div className="flex flex-col">
                     <Biografia />
-                    {/* <SoftSkillss/> */}
+                    <SoftSkills/>
                     <Tecnologias />
-                    {/* <Proyectos/> */}
+                    <Proyectos/>
                     {/* <Contacto/> */}
                 </div>
             </div>

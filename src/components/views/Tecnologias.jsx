@@ -18,9 +18,11 @@ import Imagen16 from "../../assets/tecnologias/sqlServer.png"
 import Imagen17 from "../../assets/tecnologias/csharp.png"
 import Imagen18 from "../../assets/tecnologias/netFramework.png"
 import Imagen19 from "../../assets/tecnologias/mysql.png"
+import { Container } from 'react-bootstrap';
 
 const Tecnologias = () => {
     return (
+        <>
         <div className='d-flex justify-content-center align-items-center slider bg-matrix'>
             <div className="slide-track">
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
@@ -199,6 +201,7 @@ const Tecnologias = () => {
 
             </div>
         </div>
+        </>
     );
 };
 
