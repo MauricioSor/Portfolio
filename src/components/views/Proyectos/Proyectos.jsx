@@ -1,7 +1,23 @@
 import {Container,Row,Col} from "react-bootstrap"
 import CardsProyectos from './CardsProyectos';
 import React, { useState } from 'react';
-
+import Imagen1 from "../../../assets/proyectosPortada/rollingfit.png"
+import Imagen2 from "../../../assets/proyectosPortada/tucuparking.png"
+import Imagen3 from "../../../assets/proyectosPortada/blogRecetas.png"
+import Imagen4 from "../../../assets/proyectosPortada/traingym.png"
+import Imagen5 from "../../../assets/proyectosPortada/clima.png"
+import Imagen6 from "../../../assets/proyectosPortada/noticias.png"
+import Imagen7 from "../../../assets/proyectosPortada/listatareas.png"
+import Imagen8 from "../../../assets/proyectosPortada/rollingbank.png"
+import Imagen9 from "../../../assets/proyectosPortada/panaderiacocu.png"
+import Imagen10 from "../../../assets/proyectosPortada/selectorcolores.png"
+import Imagen11 from "../../../assets/proyectosPortada/streamify.png"
+import Imagen12 from "../../../assets/proyectosPortada/pokedex.png"
+import Imagen13 from "../../../assets/proyectosPortada/numerosmagicos.png"
+import Imagen14 from "../../../assets/proyectosPortada/cronometro.png"
+import Imagen15 from "../../../assets/proyectosPortada/temporizador.png"
+import Imagen16 from "../../../assets/proyectosPortada/galeriafuncos.png"
+import Imagen17 from "../../../assets/proyectosPortada/rollingvet.png"
 const Proyectos = () => {
     const [proyectos,setProyectos]=useState([
         {
