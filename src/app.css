@@ -109,3 +109,12 @@ body, html {
 #boton{
     background-color: #2ac231;
 }
+@media only screen and (max-width: 700px) {
+    #textoFooter {
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+    #footer{
+        margin:0 !important;
+    }
+}

@@ -9,7 +9,7 @@ const Proyectos = () => {
             title:"RollingFit",
             image:"",
             text:"RollingFit es una app creadad asdasdasdasidnasoid",
-            link:"https://rollingfitplus.netlify.ap",
+            link:"https://rollingfitplus.netlify.app/",
         },
         {
             id:3,
@@ -66,6 +66,13 @@ const Proyectos = () => {
             image:"",
             text:"TucuParking es una app creadad asdasdasdasidnasoid",
             link:"https://panaderia-cocu-mauricio-soria.netlify.app",
+        },
+        {
+            id:11,
+            title:"Paleta de colores",
+            image:"",
+            text:"TucuParking es una app creadad asdasdasdasidnasoid",
+            link:"https://timely-caramel-3cb573.netlify.app/",
         },
         {
             id:12,
@@ -128,12 +135,11 @@ const Proyectos = () => {
     
     return (
         <>
-            <Container className="bg-black my-2 py-3 ">
-                <h4 className="texto">Mis proyectos</h4>
-                <Row className="d-flex">
+            <Container className="bg-black my-2 py-3">
+                <h4 className="texto mb-3">Mis proyectos</h4>
+                <Row className="container d-flex justify-content-center ">
                 {proyectos.map((item) =>(
-                    <Col key={item.id} md={3} className="mb-3">
-                    
+                    <Col key={item.id} lg={3} md={5} sm={12} className="mb-3">
                     <CardsProyectos item={item} />
                 </Col>
                 ))}

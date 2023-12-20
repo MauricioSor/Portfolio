@@ -1,8 +1,9 @@
-import Tecnologias from "./Tecnologias";
+import Tecnologias from "./Tecnologias/Tecnologias";
 import Biografia from "./Biografia";
 import MatrixAnimation from "./MatrixAnimation";
-import SoftSkills from "./SoftSkills"
+import SoftSkills from "./SoftSkills/SoftSkills"
 import Proyectos from "./Proyectos/Proyectos";
+import Certificados from "./Certificados";
 
 
 const Principal = () => {
@@ -13,6 +14,7 @@ const Principal = () => {
                 <div className="flex flex-col">
                     <Biografia />
                     <SoftSkills/>
+                    <Certificados/>
                     <Tecnologias />
                     <Proyectos/>
                     {/* <Contacto/> */}
