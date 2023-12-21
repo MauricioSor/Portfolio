@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
+
 /* 
 main {
     min-height: 100vh;
@@ -100,4 +101,20 @@ body, html {
 }
 .bg-matrix{
     background-color: #2ac231;
+}
+
+:root {
+  --success-color: #1fda25; /* Nuevo color para 'success' */
+}
+#boton{
+    background-color: #2ac231;
+}
+@media only screen and (max-width: 700px) {
+    #textoFooter {
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+    #footer{
+        margin:0 !important;
+    }
 }

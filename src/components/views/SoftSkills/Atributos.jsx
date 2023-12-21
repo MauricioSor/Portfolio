@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SoftSkills = () => {
+const Atributos = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const SoftSkills = () => {
     );
 };
 
-export default SoftSkills;
+export default Atributos;
