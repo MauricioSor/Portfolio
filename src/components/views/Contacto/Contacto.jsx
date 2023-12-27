@@ -2,23 +2,52 @@ import React from 'react';
 import { Container, Form, Row, Col, Button } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { enviarEmail } from '../../../helpers/queries';
+import Swal from 'sweetalert2';
 
 
 const Contacto = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
     const enviar = async (mensaje) => {
-        console.log(mensaje)
-        enviarEmail(mensaje)/* .then((resp) => {
-            if (resp.status == 200) {
-                console.log("enviado")
-                reset();
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass: {
+                confirmButton: "btn btn-success",
+                cancelButton: "btn btn-danger"
+            },
+            buttonsStyling: false
+        });
+        swalWithBootstrapButtons.fire({
+            title: "Confirmar envio de mensaje",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonText: "Si,enviar!",
+            cancelButtonText: "No,cancelar!",
+            reverseButtons: true
+        }).then((result) => {
+            if (result.isConfirmed) {
+                enviarEmail(mensaje).then((resp) => {
+                    if (resp.status == 200) {
+                        console.log("enviado")
+                        reset();
+                        Swal.fire({
+                            title: "Correo enviado",
+                            icon: "success"
+                        })
+                    }
+                })
+            } else if (
+                result.dismiss === Swal.DismissReason.cancel
+            ) {
+                swalWithBootstrapButtons.fire({
+                    title: "Envio cancelado",
+                    icon: "error"
+                });
             }
-        }) */
+        });
     }
     return (
         <div className='bg-black py-3 d-flex justify-content-center flex-column'>
-            <h6 className='texto fs-5 text-center'  >¡Pongamonos en contacto!</h6>
+            <h2 className='texto fs-2 text-center'  >¡Pongamonos en contacto!</h2>
             <Container className=''>
                 <Form onSubmit={handleSubmit(enviar)}>
                     <Row className="mb-6">
@@ -27,8 +56,7 @@ const Contacto = () => {
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder="First name"
-                                defaultValue="Marsdsdqwek"
+                                placeholder="Ingrese su nombre..."
                                 {...register("nombre", {
                                     required: "El nombre es un campo necesario",
                                     minLength: {
@@ -40,7 +68,7 @@ const Contacto = () => {
                                         message: "*Caracteres maximos 20*"
                                     },
                                     pattern: {
-                                        value: /^[A-Z][a-zA-Z0-9\u00f1\u00d1]*(?: [A-Z][a-zA-Z0-9\u00f1\u00d1]*)*(?: [A-Z][a-zA-Z0-9\u00f1\u00d1]*)?$/,
+                                        value: /^[a-zA-Z0-9\u00f1\u00d1]*(?: [a-zA-Z0-9\u00f1\u00d1]*)*(?: [a-zA-Z0-9\u00f1\u00d1]*)?$/,
                                         message: `*No puede se permiten caracteres especiales (Pj. @$%á".)*`
                                     }
                                 })}
@@ -52,17 +80,17 @@ const Contacto = () => {
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder="First name"
-                                defaultValue="Markdasddsd"
+                                placeholder="Escriba un mensaje de texto"
+                                
                                 {...register("mensaje", {
                                     required: "Es necesario que escriba un mensaje",
-                                    minLength:{
-                                        value:10,
-                                        message:"Caracteres minimos 10"
+                                    minLength: {
+                                        value: 10,
+                                        message: "Caracteres minimos 10"
                                     },
-                                    maxLength:{
-                                        value:500,
-                                        message:"Caracteres maximos 500"
+                                    maxLength: {
+                                        value: 500,
+                                        message: "Caracteres maximos 500"
                                     }
                                 })}
                             />
