@@ -2,18 +2,16 @@
 import axios from "axios";
 export const enviarEmail = async (mensaje) => {
 
-console.log(mensaje)
+console.log(mensaje);
     try {
-        const req = axios.post('https://emailsender-snowy.vercel.app/enviar', {
+        const respuesta = await fetch('https://emailsender-snowy.vercel.app/enviar', {
             method: "POST",
-            Headers:{
+            headers:{
             "Content-Type":"application/json",
             },
             body: JSON.stringify(mensaje)
         })
-            .then(function (response) {
-                return req.status;
-            })
+        return respuesta;
     } catch (error) {
         console.log(error);
     }
