@@ -8,7 +8,7 @@ const Biografia = () => {
             <Image src={FotoRetrato} style={{width:"150px"}} className='' rounded alt="" roundedCircle/>
             </Container>
             <h5 className='display-5 text-center texto'> Acerca de mi</h5>
-            <p className='text-center texto'>"Soy estudiante de la carrea de Ingenieria en sistemas de Informacion en UTN-FRT. En mis interes estan el crecimiento personal y el desarrollo de mi carrera en el area, me gusta aprender siempre de tecnologias nuevas y estar al tanto de cada nueva actualizacion. Me gusta el desarrollo de Software como soluicion de problemas para el cliente."</p>
+            <p className='text-center texto'>"Estudiante de Ingeniería en Sistemas de Información en UTN-FRT. Apasionado por el crecimiento personal y el desarrollo en tecnología. Siempre actualizado con las últimas tendencias, me encanta aprender sobre nuevas tecnologías y aplicarlas en el desarrollo de software para ofrecer soluciones eficientes a los problemas del cliente"</p>
         </div>
     );
 };
