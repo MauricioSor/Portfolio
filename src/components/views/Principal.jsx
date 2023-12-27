@@ -4,6 +4,7 @@ import MatrixAnimation from "./MatrixAnimation";
 import SoftSkills from "./SoftSkills/SoftSkills"
 import Proyectos from "./Proyectos/Proyectos";
 import Certificados from "./Certificados";
+import Contacto from "./Contacto/Contacto";
 
 
 const Principal = () => {
@@ -17,7 +18,7 @@ const Principal = () => {
                     <Certificados/>
                     <Tecnologias />
                     <Proyectos/>
-                    {/* <Contacto/> */}
+                    <Contacto/>
                 </div>
             </div>
         </>
