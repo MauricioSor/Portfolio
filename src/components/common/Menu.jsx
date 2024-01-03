@@ -5,7 +5,7 @@ const Menu = () => {
 
     return (
         <>
-            <Navbar expand="md" className="bg-dark site-wrap" variant='dark'>
+            <Navbar expand="md" className="bg-dark site-wrap" variant='dark' fixed='top'>
                 <Container fluid>
                     <Navbar.Brand href="#" className='d-flex text-white'>
                         <Image src={Logo} style={{ height: "50px" }} alt="" className='mx-2' roundedCircle />

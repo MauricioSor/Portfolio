@@ -2,7 +2,6 @@ import React from 'react';
 import { Container,Col } from 'react-bootstrap';
 
 const Atributos = ({item}) => {
-    console.log(item)
     return (
         <Container className='d-flex '>
         <Col>

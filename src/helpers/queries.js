@@ -2,7 +2,6 @@
 import axios from "axios";
 export const enviarEmail = async (mensaje) => {
 
-console.log(mensaje);
     try {
         const respuesta = await fetch('https://emailsender-snowy.vercel.app/enviar', {
             method: "POST",

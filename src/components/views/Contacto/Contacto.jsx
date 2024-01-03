@@ -27,7 +27,6 @@ const Contacto = () => {
             if (result.isConfirmed) {
                 enviarEmail(mensaje).then((resp) => {
                     if (resp.status == 200) {
-                        console.log("enviado")
                         reset();
                         Swal.fire({
                             title: "Correo enviado",

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container,Col } from 'react-bootstrap';
+import { Container,Col,Row } from 'react-bootstrap';
 
 const Certificados = () => {
     return (
