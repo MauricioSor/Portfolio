@@ -59,11 +59,11 @@ const Conocimientos = () => {
         },
     ])
     return (
-        <>
+        <Container>
         <Row className=' bg-black py-2 justify-content-center d-flex'>
         <Col className="" lg={5}md={12} xs={12}>
         <div >
-        <h3 className='fs-3 texto text-center mb-2'>Conocimientos</h3>
+        <h2 className='fs-2 texto text-center my-2'>Conocimientos</h2>
         {
             lenguajes.map((item,index)=>(
                 <Atributos item={item} key={index}/>
@@ -72,7 +72,7 @@ const Conocimientos = () => {
         </div>
         </Col>
         <Col className="" lg={5}md={12}>
-        <h3 className='fs-3 texto text-center mb-2'>SoftSkills</h3>
+        <h3 className='fs-2 texto text-center my-2'>SoftSkills</h3>
         <ul>
         {
             sofSkills.map((item,index)=>(
@@ -82,7 +82,7 @@ const Conocimientos = () => {
         </ul>
         </Col>
         </Row>
-        </>
+        </Container>
     );
 };
 
