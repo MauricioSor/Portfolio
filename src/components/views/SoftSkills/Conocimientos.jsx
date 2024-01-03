@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { ProgressBar, Container } from 'react-bootstrap';
+import { ProgressBar, Container,Col,Row } from 'react-bootstrap';
 import Atributos from './Atributos';
 import Skills from './Skills';
 
@@ -60,19 +60,19 @@ const Conocimientos = () => {
     ])
     return (
         <>
-        <Container className='bg-black py-2 justify-content-center d-flex'>
-        <Container>
+        <Row className=' bg-black py-2 justify-content-center d-flex'>
+        <Col className="" lg={5}md={12} xs={12}>
         <div >
-        <h3 className='fs-3 texto text-center ms-5'>Conocimientos</h3>
+        <h3 className='fs-3 texto text-center mb-2'>Conocimientos</h3>
         {
             lenguajes.map((item,index)=>(
                 <Atributos item={item} key={index}/>
             ))
         }
         </div>
-        </Container>
-        <Container>
-        <h3 className='fs-3 texto text-center ms-5'>SoftSkills</h3>
+        </Col>
+        <Col className="" lg={5}md={12}>
+        <h3 className='fs-3 texto text-center mb-2'>SoftSkills</h3>
         <ul>
         {
             sofSkills.map((item,index)=>(
@@ -80,8 +80,8 @@ const Conocimientos = () => {
             ))
         }
         </ul>
-        </Container>
-        </Container>
+        </Col>
+        </Row>
         </>
     );
 };
