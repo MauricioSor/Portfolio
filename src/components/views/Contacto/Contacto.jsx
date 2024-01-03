@@ -27,7 +27,6 @@ const Contacto = () => {
             if (result.isConfirmed) {
                 enviarEmail(mensaje).then((resp) => {
                     if (resp.status == 200) {
-                        console.log("enviado")
                         reset();
                         Swal.fire({
                             title: "Correo enviado",
@@ -46,7 +45,7 @@ const Contacto = () => {
         });
     }
     return (
-        <div className='bg-black py-3 d-flex justify-content-center flex-column'>
+        <div id='contacto' className='bg-black py-3 d-flex justify-content-center flex-column'>
             <h2 className='texto fs-2 text-center'  >¡Pongamonos en contacto!</h2>
             <Container className=''>
                 <Form onSubmit={handleSubmit(enviar)}>

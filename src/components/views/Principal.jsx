@@ -1,10 +1,10 @@
 import Tecnologias from "./Tecnologias/Tecnologias";
-import Biografia from "./Biografia";
 import MatrixAnimation from "./MatrixAnimation";
-import SoftSkills from "./SoftSkills/SoftSkills"
 import Proyectos from "./Proyectos/Proyectos";
-import Certificados from "./Certificados";
 import Contacto from "./Contacto/Contacto";
+import Biografia from "./AcercaDeMi/Biografia";
+import Certificados from "./AcercaDeMi/Certificados";
+import Conocimientos from "./SoftSkills/Conocimientos";
 
 
 const Principal = () => {
@@ -14,7 +14,7 @@ const Principal = () => {
             <MatrixAnimation className="absolute inset-0" id="fondo" />
                 <div className="flex flex-col">
                     <Biografia />
-                    <SoftSkills/>
+                    <Conocimientos/>
                     <Certificados/>
                     <Tecnologias />
                     <Proyectos/>
