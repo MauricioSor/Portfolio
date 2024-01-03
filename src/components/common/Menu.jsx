@@ -14,8 +14,8 @@ const Menu = () => {
                     <Navbar.Toggle className='text-white' aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="navbarScroll" className='responsive-navbar-nav'>
                         <Nav className="ms-auto"style={{ maxHeight: '100px' }} navbarScroll>
-                            <Nav.Link href="#home"className='' >Inicio</Nav.Link>
-                            <Nav.Link href="#features"className='' to >Contacto</Nav.Link>
+                            <Nav.Link href="#inicio"className='' >Inicio</Nav.Link>
+                            <Nav.Link href="#contacto"className='' to >Contacto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
