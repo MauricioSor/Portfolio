@@ -45,6 +45,7 @@ const Contacto = () => {
         });
     }
     return (
+        
         <div id='contacto' className='bg-black py-3 d-flex justify-content-center flex-column'>
             <h2 className='texto fs-2 text-center'  >¡Pongamonos en contacto!</h2>
             <Container className=''>
