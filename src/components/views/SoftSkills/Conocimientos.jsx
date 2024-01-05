@@ -53,10 +53,7 @@ const Conocimientos = () => {
         },
         {
             skill:"Trabajo bajo presión",
-        },
-        {
-            skill:"Javascript",
-        },
+        }
     ])
     return (
         <Container>
