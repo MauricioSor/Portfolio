@@ -5,7 +5,7 @@ const CardsProyectos = ({ item }) => {
     return (
         <Container>
             
-            <Card style={{ width: '18rem',height:"20rem" }} className='' >
+            <Card style={{ width: '18rem',height:"22rem" }} className='' >
                     <Card.Title className='text-center my-2'>{item.title}</Card.Title>
                 <Card.Body className='text-center'>
                 <Card.Img variant="center"  src={item.image} style={{width:"220px",height:"120px"}} />
