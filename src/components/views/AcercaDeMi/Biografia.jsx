@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container,Image,Row} from "react-bootstrap"
-import Foto from "../../../assets/AcercaDeMi/foto.png"
+import Foto from "../../../assets/images/AcercaDeMi/foto.png"
 const Biografia = () => {
     return (
         <div id='inicio' className='flex items-center flex-grow p-4 mt-3 my-4 bg-black border-rounded mx-3'>

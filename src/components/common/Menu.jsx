@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Nav, Navbar, Container, Image, Form, NavDropdown,Button } from "react-bootstrap"
-import Logo from "../../assets/logo1.png"
+import Logo from "../../assets/images/AcercaDeMi/logo1.png"
 const Menu = () => {
 
     return (
