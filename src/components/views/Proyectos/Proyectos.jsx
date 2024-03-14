@@ -18,6 +18,7 @@ import Imagen14 from "../../../assets/images/proyectosPortada/cronometro.png"
 import Imagen15 from "../../../assets/images/proyectosPortada/temporizador.png"
 import Imagen16 from "../../../assets/images/proyectosPortada/galeriafuncos.png"
 import Imagen17 from "../../../assets/images/proyectosPortada/rollingvet.png"
+import Imagen18 from "../../../assets/images/proyectosPortada/pokedexApi.png"
 const Proyectos = () => {
     const [proyectos,setProyectos]=useState([
         {
@@ -119,7 +120,7 @@ const Proyectos = () => {
         {
             id:13,
             title:"Pokedex API",
-            image:{},
+            image:Imagen18,
             text:"Proyecto desarrollado como practica",
             link:"https://dazzling-klepon-349058.netlify.app/",
             
