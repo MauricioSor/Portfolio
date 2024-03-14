@@ -18,7 +18,7 @@ import Imagen14 from "../../../assets/images/proyectosPortada/cronometro.png"
 import Imagen15 from "../../../assets/images/proyectosPortada/temporizador.png"
 import Imagen16 from "../../../assets/images/proyectosPortada/galeriafuncos.png"
 import Imagen17 from "../../../assets/images/proyectosPortada/rollingvet.png"
-import Imagen18 from "../../../assets/images/proyectosPortada/pokedexApi.png"
+import Imagen18 from "../../../assets/images/proyectosPortada/PokedexApi.png"
 const Proyectos = () => {
     const [proyectos,setProyectos]=useState([
         {
