@@ -26,6 +26,7 @@ const Proyectos = () => {
             image:Imagen17,
             text:"Proyecto de fin de modulo grupal, con desarrollo en frontend,backend y database para Rolling Code Tucuman",
             link:"https://marvelous-sorbet-006e9b.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:2,
@@ -33,6 +34,7 @@ const Proyectos = () => {
             image:Imagen1,
             text:"Proyecto de fin de modulo desarrollado en equipo para Rolling Code School",
             link:"https://rollingfitplus.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:3,
@@ -40,6 +42,7 @@ const Proyectos = () => {
             image:Imagen2,
             text:"Como Trabajo final Integrador para la materia Ingenieria de Requerimientos 4to año UTN-FRT",
             link:"https://tucu-parking.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:4,
@@ -47,6 +50,7 @@ const Proyectos = () => {
             image:Imagen3,
             text:"TucuParking fue desarrollada como ejercitacion de,utilizando conceptos de backend y frontend",
             link:"https://blog-recetas-msor.netlify.app",
+            alt:`Imagen de ${title}`
         },
         {
             id:5,
@@ -54,6 +58,7 @@ const Proyectos = () => {
             image:Imagen4,
             text:"Proyecto desarrollado para un cliente,recibió soporte hasta mediados del 2023",
             link:"https://train-cde.netlify.app",
+            alt:`Imagen de ${title}`
         },
         {
             id:6,
@@ -61,6 +66,7 @@ const Proyectos = () => {
             image:Imagen5,
             text:"Desarrollado como practica para el consumo de APIs y manejo de respuestas",
             link:"https://papaya-pavlova-c65a56.netlify.app",
+            alt:`Imagen de ${title}`
         },
         {
             id:7,
@@ -68,6 +74,7 @@ const Proyectos = () => {
             image:Imagen6,
             text:"Desarrollado como practica para el consumo de APIs y manejo de respuestas",
             link:"https://serene-creponne-864349.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:8,
@@ -75,6 +82,7 @@ const Proyectos = () => {
             image:Imagen7,
             text:"Practica con React, manejo de estados y propiedades",
             link:"https://glittering-bavarois-03a135.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:9,
@@ -82,6 +90,7 @@ const Proyectos = () => {
             image:Imagen8,
             text:"Proyecto desarrollado como practica para Rolling Code School",
             link:"https://rolling-bank-mauricio-soria.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:10,
@@ -89,6 +98,7 @@ const Proyectos = () => {
             image:Imagen9,
             text:"Proyecto desarrollado como practica para Rolling Code School",
             link:"https://panaderia-cocu-mauricio-soria.netlify.app",
+            alt:`Imagen de ${title}`
         },
         {
             id:11,
@@ -96,6 +106,7 @@ const Proyectos = () => {
             image:Imagen10,
             text:"Practica con React, manejo de estados y propiedades",
             link:"https://timely-caramel-3cb573.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:12,
@@ -103,6 +114,7 @@ const Proyectos = () => {
             image:Imagen11,
             text:"Proyecto de fin de modulo desarrollado en equipo para Rolling Code School",
             link:"https://streamify-plus.netlify.app",
+            alt:`Imagen de ${title}`
         },
         {
             id:13,
@@ -110,6 +122,7 @@ const Proyectos = () => {
             image:{},
             text:"Proyecto desarrollado como practica",
             link:"https://dazzling-klepon-349058.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:14,
@@ -117,6 +130,7 @@ const Proyectos = () => {
             image:Imagen12,
             text:"Proyecto desarrollado como practica para Rolling Code School",
             link:"https://tranquil-sunburst-fb519a.netlify.app",
+            alt:`Imagen de ${title}`
         },
         {
             id:15,
@@ -124,6 +138,7 @@ const Proyectos = () => {
             image:Imagen13,
             text:"Juego desarrollado como practica con javascript y conceptos de maquetado y estilizado",
             link:"https://admirable-parfait-3d4843.netlify.app",
+            alt:`Imagen de ${title}`
         },
         {
             id:16,
@@ -131,6 +146,7 @@ const Proyectos = () => {
             image:Imagen14,
             text:"Desarrollada como practica con javascript y conceptos de maquetado y estilizado",
             link:"https://fluffy-basbousa-2315b6.netlify.app/",
+            alt:`Imagen de ${title}`
         },
         {
             id:17,
@@ -138,6 +154,7 @@ const Proyectos = () => {
             image:Imagen15,
             text:"Desarrollada como practica con javascript y conceptos de maquetado y estilizado",
             link:"https://brilliant-squirrel-3e4f22.netlify.app",
+            alt:`Imagen de ${title}`
         },
         {
             id:18,
@@ -145,6 +162,7 @@ const Proyectos = () => {
             image:Imagen16,
             text:"Desarrollada como practica con html y conceptos de maquetado y estilizado",
             link:"https://galeria-de-funkos-mauricio-soria.netlify.app",
+            alt:`Imagen de ${title}`
         }
     ])
     

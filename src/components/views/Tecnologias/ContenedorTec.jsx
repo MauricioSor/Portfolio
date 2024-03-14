@@ -4,61 +4,61 @@ const ContenedorTec = ({Imagen1 ,Imagen2 ,Imagen3 ,Imagen4 ,Imagen5 ,Imagen6 ,Im
     return (
         <>
         <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen1} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen1} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen2} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen2} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen3} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen3} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen4} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen4} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen5} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen5} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen6} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen6} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen7} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen7} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen8} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen8} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen9} style={{ width: "150px" }} alt="" />
+                    <img alt="technologies" src={Imagen9} style={{ width: "150px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen10} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen10} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen11} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen11} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen12} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen12} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen13} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen13} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen14} style={{ width: "100px" }} alt="" />
+                    <img alt="technologies" src={Imagen14} style={{ width: "100px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen15} style={{ width: "130px" }} alt="" />
+                    <img alt="technologies" src={Imagen15} style={{ width: "130px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen16} style={{ width: "130px" }} alt="" />
+                    <img alt="technologies" src={Imagen16} style={{ width: "130px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen17} style={{ width: "130px" }} alt="" />
+                    <img alt="technologies" src={Imagen17} style={{ width: "130px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen18} style={{ width: "130px" }} alt="" />
+                    <img alt="technologies" src={Imagen18} style={{ width: "130px" }}  />
                 </div>
                 <div className="slide d-flex justify-content-center align-items-center mx-3">
-                    <img src={Imagen19} style={{ width: "130px" }} alt="" />
+                    <img alt="technologies" src={Imagen19} style={{ width: "130px" }}  />
                 </div>
                 </>
                 );

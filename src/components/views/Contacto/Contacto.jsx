@@ -97,7 +97,7 @@ const Contacto = () => {
                             <Form.Text className='text-danger'>{errors.mensaje?.message}</Form.Text>
                         </Form.Group>
                     </Row>
-                    <Button className='mt-2 ' type="submit" id='boton'>Enviar</Button>
+                    <Button className='mt-2 text-black' type="submit" id='boton'>Enviar</Button>
                 </Form>
             </Container>
         </div>
