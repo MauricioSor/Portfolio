@@ -70,7 +70,7 @@ const Conocimientos = () => {
         </Col>
         <Col className="" lg={5}md={12}>
         <h3 className='fs-2 texto text-center my-2'>SoftSkills</h3>
-        <ul>
+        <ul className="">
         {
             sofSkills.map((item,index)=>(
                 <Skills item={item} key={index}/>

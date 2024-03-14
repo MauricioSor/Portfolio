@@ -23,7 +23,7 @@ import ContenedorTec from './ContenedorTec';
 const Tecnologias = () => {
     return (
         <>
-        <div className='d-flex justify-content-center align-items-center slider bg-matrix'>
+        <div className='shadow-lg p-3 d-flex justify-content-center align-items-center slider bg-matrix'>
             <div className="slide-track">
                 <ContenedorTec Imagen1={Imagen1}Imagen2={Imagen2}Imagen3={Imagen3}Imagen4={Imagen4}Imagen5={Imagen5}Imagen6={Imagen6}Imagen7={Imagen7}Imagen8={Imagen8}Imagen9={Imagen9}Imagen10={Imagen10}Imagen11={Imagen11}Imagen12={Imagen12}Imagen13={Imagen13}Imagen14={Imagen14}Imagen15={Imagen15}Imagen16={Imagen16}Imagen17={Imagen17}Imagen18={Imagen18}Imagen19={Imagen19}/>
                 <ContenedorTec Imagen1={Imagen1}Imagen2={Imagen2}Imagen3={Imagen3}Imagen4={Imagen4}Imagen5={Imagen5}Imagen6={Imagen6}Imagen7={Imagen7}Imagen8={Imagen8}Imagen9={Imagen9}Imagen10={Imagen10}Imagen11={Imagen11}Imagen12={Imagen12}Imagen13={Imagen13}Imagen14={Imagen14}Imagen15={Imagen15}Imagen16={Imagen16}Imagen17={Imagen17}Imagen18={Imagen18}Imagen19={Imagen19}/>

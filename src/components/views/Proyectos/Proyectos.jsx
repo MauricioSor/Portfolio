@@ -151,7 +151,7 @@ const Proyectos = () => {
     return (
         <>
             <Container className="bg-black my-2 py-3">
-                <h4 className="texto mb-3">Mis proyectos</h4>
+                <h2 className="texto mb-3">Mis proyectos</h2>
                 <Row className="container d-flex justify-content-center">
                 {proyectos.map((item) =>(
                     <Col key={item.id}  lg={3} md={5} sm={12} className="mb-3  ">
