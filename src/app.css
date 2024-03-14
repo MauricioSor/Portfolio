@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
 
-/* 
-main {
-    min-height: 100vh;
-    flex-grow: 1;
-    flex-direction: column;
-} */
-
 /* slider de tecnologias */
 .slider {
     width: 100%;
@@ -43,9 +36,6 @@ main {
 
 
 /* Fondo de Matrix */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Hide the default scrollbar */
 ::-webkit-scrollbar {

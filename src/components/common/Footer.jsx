@@ -18,11 +18,7 @@ const Footer = () => {
                 </Col>
                 <Col sm={12} md={6}>
                     <p className="text-light text-end" id="textoFooter">&copy; Todos los derechos Reservados- MauricioSor</p>
-                    <div className="text-center">
-                    <a  title="contador de visitas">
-                        <img src="https://counter7.optistats.ovh/private/contadorvisitasgratis.php?c=abzgth1qauhdwepge4e7ct6nqmjessnj" border="0" title="contador de visitas" alt="contador de visitas" />
-                    </a>
-                    </div>
+                    
                 </Col>
             </Row>
         </Container>
