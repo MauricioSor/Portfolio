@@ -8,7 +8,7 @@ const Footer = () => {
         <Container className='bg-dark py-2' fluid id="footer">
             <Row className="container justify-content-center align-items-center">
                 <Col sm={12} md={3} className="mx-5 align-self-start" style={{ maxWidth: 170, width: "100%" }}>
-                    <h6 className="text-white text-center text-center texto">¡Escanea el QR con tu smartphone!</h6>
+                    <p className="text-white text-center text-center texto">¡Escanea el QR con tu smartphone!</p>
                     <QRCode
                         size={256}
                         style={{ height: "auto", maxWidth: "100%", width: "100%" }}
