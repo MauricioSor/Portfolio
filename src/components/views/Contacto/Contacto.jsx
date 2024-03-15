@@ -7,8 +7,9 @@ import Swal from 'sweetalert2';
 
 const Contacto = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
-
+    
     const enviar = async (mensaje) => {
+        console.log(mensaje);
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: "btn btn-success",
@@ -24,6 +25,7 @@ const Contacto = () => {
             cancelButtonText: "No,cancelar!",
             reverseButtons: true
         }).then((result) => {
+            console.log(result);
             if (result.isConfirmed) {
                 enviarEmail(mensaje).then((resp) => {
                     if (resp.status == 200) {
@@ -46,7 +48,7 @@ const Contacto = () => {
     }
     return (
         
-        <div id='contacto' className='bg-black py-3 d-flex justify-content-center flex-column'>
+        <div id='contacto' className='bg-black py-3 mb-3 d-flex justify-content-center flex-column border-dark rounded'>
             <h2 className='texto fs-2 text-center'  >¡Pongamonos en contacto!</h2>
             <Container className=''>
                 <Form onSubmit={handleSubmit(enviar)}>
@@ -96,8 +98,28 @@ const Contacto = () => {
                             />
                             <Form.Text className='text-danger'>{errors.mensaje?.message}</Form.Text>
                         </Form.Group>
+                        <Form.Group as={Col} md="6" >
+                            <Form.Label className='texto'>Correo: </Form.Label>
+                            <Form.Control
+                                required
+                                type="text"
+                                placeholder="Ingrese su correo..."
+                                {...register("correo", {
+                                    required: "El correo es un campo necesario",
+                                    minLength: {
+                                        value: 12,
+                                        message: "*Caracteres minimos 12*"
+                                    },
+                                    maxLength: {
+                                        value: 30,
+                                        message: "*Caracteres maximos 30*"
+                                    }
+                                })}
+                            />
+                            <Form.Text className='text-danger'>{errors.nombre?.message}</Form.Text>
+                        </Form.Group>
                     </Row>
-                    <Button className='mt-2 ' type="submit" id='boton'>Enviar</Button>
+                    <Button id='botonEnviar' className='mt-2 text-black' type="submit">Enviar</Button>
                 </Form>
             </Container>
         </div>

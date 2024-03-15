@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Lilita+One&display=swap');
 
-/* 
-main {
-    min-height: 100vh;
-    flex-grow: 1;
-    flex-direction: column;
-} */
-
 /* slider de tecnologias */
 .slider {
     width: 100%;
@@ -43,9 +36,6 @@ main {
 
 
 /* Fondo de Matrix */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 /* Hide the default scrollbar */
 ::-webkit-scrollbar {
@@ -97,16 +87,18 @@ body, html {
 
 .texto{
     color: #2ac231;
-
 }
 .bg-matrix{
     background-color: #2ac231;
 }
+body {
+    cursor: url("./assets/icons/icons8-cursor-64.png"), auto; 
+}
 
 :root {
-  --success-color: #1fda25; /* Nuevo color para 'success' */
+--success-color: #1fda25; 
 }
-#boton{
+#butonIrALaWeb, #botonEnviar, #botonCertificados{
     background-color: #2ac231;
 }
 @media only screen and (max-width: 700px) {
@@ -118,6 +110,22 @@ body, html {
         margin:0 !important;
     }
 }
-#boton:hover{
+/* Personalizacion de botones y mouse */
+#butonIrALaWeb:hover{
+    cursor: url("./assets/icons/cursor2.png"), auto; 
     background-color: #89ce8d;
+}
+a{
+    cursor: url("./assets/icons/cursor2.png"), auto; 
+}
+#botonCertificados:hover{
+    background-color: #89ce8d;
+    cursor: url("./assets/icons/cursor2.png"), auto; 
+}
+#botonEnviar:hover{
+    background-color: #89ce8d;
+    cursor: url("./assets/icons/cursor2.png"), auto; 
+}
+.slider:hover{
+    cursor: url("./assets/icons/cursoralternativo.png"), auto; 
 }
