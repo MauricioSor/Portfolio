@@ -91,9 +91,12 @@ body, html {
 .bg-matrix{
     background-color: #2ac231;
 }
+body {
+    cursor: url("./assets/icons/icons8-cursor-64.png"), auto; 
+}
 
 :root {
-  --success-color: #1fda25; /* Nuevo color para 'success' */
+--success-color: #1fda25; 
 }
 #butonIrALaWeb, #botonEnviar, #botonCertificados{
     background-color: #2ac231;
@@ -107,6 +110,22 @@ body, html {
         margin:0 !important;
     }
 }
-.boton:hover{
+/* Personalizacion de botones y mouse */
+#butonIrALaWeb:hover{
+    cursor: url("./assets/icons/cursor2.png"), auto; 
     background-color: #89ce8d;
+}
+a{
+    cursor: url("./assets/icons/cursor2.png"), auto; 
+}
+#botonCertificados:hover{
+    background-color: #89ce8d;
+    cursor: url("./assets/icons/cursor2.png"), auto; 
+}
+#botonEnviar:hover{
+    background-color: #89ce8d;
+    cursor: url("./assets/icons/cursor2.png"), auto; 
+}
+.slider:hover{
+    cursor: url("./assets/icons/cursoralternativo.png"), auto; 
 }
