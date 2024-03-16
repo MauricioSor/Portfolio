@@ -169,7 +169,7 @@ const Proyectos = () => {
     
     return (
         <>
-            <Container className="bg-black my-2 py-3">
+            <Container className="d-flex flex-column justify-content-center bg-black my-2 py-3">
                 <h2 className="texto mb-3">Mis proyectos</h2>
                 <Row className="container d-flex justify-content-center">
                 {proyectos.map((item) =>(
