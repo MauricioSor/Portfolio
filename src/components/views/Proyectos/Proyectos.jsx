@@ -19,6 +19,7 @@ import Imagen15 from "../../../assets/images/proyectosPortada/temporizador.png"
 import Imagen16 from "../../../assets/images/proyectosPortada/galeriafuncos.png"
 import Imagen17 from "../../../assets/images/proyectosPortada/rollingvet.png"
 import Imagen18 from "../../../assets/images/proyectosPortada/PokedexApi.png"
+import Imagen19 from "../../../assets/images/proyectosPortada/Ml-clon.png"
 const Proyectos = () => {
     const [proyectos,setProyectos]=useState([
         {
@@ -164,6 +165,12 @@ const Proyectos = () => {
             text:"Desarrollada como practica con html y conceptos de maquetado y estilizado",
             link:"https://galeria-de-funkos-mauricio-soria.netlify.app",
             
+        },{
+            id:19,
+            title:"TucuLibre",
+            image:Imagen19,
+            text:"Una pagina inspirada en Mercado Libre, la cual fue desarrollada para asentar conocimientos de custom Hooks y redux toolkit",
+            link:"https://rad-sunflower-f52518.netlify.app/",
         }
     ])
     
