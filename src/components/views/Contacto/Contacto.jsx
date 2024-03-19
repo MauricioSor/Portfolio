@@ -9,7 +9,6 @@ const Contacto = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
     
     const enviar = async (mensaje) => {
-        console.log(mensaje);
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: "btn btn-success",
@@ -25,7 +24,6 @@ const Contacto = () => {
             cancelButtonText: "No,cancelar!",
             reverseButtons: true
         }).then((result) => {
-            console.log(result);
             if (result.isConfirmed) {
                 enviarEmail(mensaje).then((resp) => {
                     if (resp.status == 200) {

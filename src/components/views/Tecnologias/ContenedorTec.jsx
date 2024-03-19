@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ContenedorTec = ({Imagen1 ,Imagen2 ,Imagen3 ,Imagen4 ,Imagen5 ,Imagen6 ,Imagen7 ,Imagen8 ,Imagen9 ,Imagen10,Imagen11,Imagen12,Imagen13,Imagen14,Imagen15,Imagen16,Imagen17,Imagen18,Imagen19}) => {
     return (
         <>
