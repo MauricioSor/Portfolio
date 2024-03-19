@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom";
 import QRCode from "react-qr-code";
 import { Row, Col, Container } from "react-bootstrap";
 import github from"../../assets/icons/github.png"
@@ -27,9 +26,9 @@ const Footer = () => {
                     <Container className="text-center">
                     <p className="text-light  text-center" id="textoFooter">Mis redes</p>
                     <Container className="d-flex justify-content-center">
-                    <a href={(redes.GitHub)} target="blank" className="mx-3 p-2" ><img src={github} alt="" style={{width:"30px",margin:"3px"}} /></a>
-                    <a href={redes.linkedin} target="blank" className="mx-3 p-2" ><img src={linkedin} alt="" style={{width:"30px",margin:"3px"}} /></a>
-                    <a href={redes.Gmail} target="blank" className="mx-3 p-2"><img src={gmail} alt="" style={{width:"30px",margin:"3px"}} /></a>
+                    <a href={(redes.GitHub)} target="blank" className="mx-3 p-2" ><img src={github} alt="Imagen de github" style={{width:"30px",margin:"3px"}} /></a>
+                    <a href={redes.linkedin} target="blank" className="mx-3 p-2" ><img src={linkedin} alt="Imagen de linkedin" style={{width:"30px",margin:"3px"}} /></a>
+                    <a href={redes.Gmail} target="blank" className="mx-3 p-2"><img src={gmail} alt="Imagen de gmail" style={{width:"30px",margin:"3px"}} /></a>
                     </Container>
                     </Container>
                 </Col>
