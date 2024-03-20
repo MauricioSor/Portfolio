@@ -15,6 +15,7 @@ const Menu = () => {
                     <Navbar.Collapse id="navbarScroll" className='responsive-navbar-nav'>
                         <Nav className="ms-auto"style={{ maxHeight: '100px' }} navbarScroll>
                             <Nav.Link href="#inicio"className='' >Inicio</Nav.Link>
+                            <Nav.Link href="#certificados"className='' >Certificados</Nav.Link>
                             <Nav.Link href="#contacto"className='' to >Contacto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

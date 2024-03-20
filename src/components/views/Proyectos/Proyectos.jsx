@@ -29,7 +29,6 @@ const Proyectos = () => {
             text:"Proyecto de fin de modulo grupal, con desarrollo en frontend,backend y database para Rolling Code Tucuman",
             link:"https://marvelous-sorbet-006e9b.netlify.app/",
             technologies:["Javascript","React-bootstrap","Node js","Express js","Jwt","MongoDB"]
-            
         },
         {
             id:2,
@@ -37,8 +36,7 @@ const Proyectos = () => {
             image:Imagen1,
             text:"Proyecto de fin de modulo desarrollado en equipo para Rolling Code School",
             link:"https://rollingfitplus.netlify.app/",
-            technologies:["Javascript","Bootstrap",""]
-            
+            technologies:["Javascript","Bootstrap","LocalStorage","SesionStorage"]
         },
         {
             id:3,

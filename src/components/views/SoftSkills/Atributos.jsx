@@ -5,7 +5,7 @@ const Atributos = ({item}) => {
     return (
         <div className='d-flex '>
         <Col>
-        <p className='mx-2 texto fs-4'>{item.lenguaje}</p>
+        <li className='mx-2 texto fs-4'>{item.lenguaje}</li>
         </Col>
         </div>
     );
