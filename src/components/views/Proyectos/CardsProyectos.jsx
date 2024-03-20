@@ -29,7 +29,7 @@ const CardsProyectos = ({ item }) => {
                         {item.text}<br />
                         <br />
                         {item.technologies.map((tech, index) => (
-                            <Badge className='mx-1' key={index}>{tech}</Badge>
+                            <Badge className='mx-1 ' key={index}>{tech}</Badge>
                         ))}
                     </Card.Text>
                     <Container className='mt-auto'>

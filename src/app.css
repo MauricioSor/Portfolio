@@ -164,7 +164,6 @@ a {
     background-color:#1fda25!important;
     transform: scale(105%)!important; 
     cursor: url("./assets/icons/cursoralternativo.png"), auto;
-
 }
 .footer-container {
     display: flex;
