@@ -6,41 +6,51 @@ import Skills from './Skills';
 const Conocimientos = () => {
     const [lenguajes,setLenguajes]=useState([
         {
-            lenguaje:"Javascript",
-            valor:70
+            lenguaje:"Html"
         },
         {
-            lenguaje:"React",
-            valor:85
+            lenguaje:"Css"
         },
         {
-            lenguaje:"Mongo DB",
-            valor:38
+            lenguaje:"Javascript"
         },
         {
-            lenguaje:"Node",
-            valor:50
+            lenguaje:"React"
         },
         {
-            lenguaje:"C#",
-            valor:70
+            lenguaje:"React-Native"
         },
         {
-            lenguaje:"Visual Studio Code",
-            valor:90
+            lenguaje:"Custom-Hooks"
         },
         {
-            lenguaje:"Git",
-            valor:80
+            lenguaje:"Redux toolkit"
         },
         {
-            lenguaje:"Html",
-            valor:80
+            lenguaje:"Mongo DB"
+        },
+        {
+            lenguaje:"Node"
+        },
+        {
+            lenguaje:"Visual Studio Code"
+        },
+        {
+            lenguaje:"Github/git"
+        },
+        {
+            lenguaje:"Git"
+        },
+        {
+            lenguaje:"Mysql"
         },
     ])
     const [sofSkills,setSoftSkills]=useState([
         {
             skill:"Trabajo en equipo",
+        },
+        {
+            skill:"Adaptacion Rapida",
         },
         {
             skill:"Liderazgo",
@@ -60,7 +70,7 @@ const Conocimientos = () => {
         <Row className=' bg-black py-2 justify-content-center d-flex'>
         <Col className="" lg={5}md={12} xs={12}>
         <div >
-        <h2 className='fs-2 texto text-center my-2'>Conocimientos</h2>
+        <h2 className='fs-2 texto text-center my-2'>Tecnologias Dominantes</h2>
         {
             lenguajes.map((item,index)=>(
                 <Atributos item={item} key={index}/>

@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <>
             <Container className='bg-dark py-3 justify-content-center' fluid id="footer">
-                <Row className="justify-content-around align-items-center">
+                <Row  className="justify-content-around align-items-center">
                     <Col lg={4} md={4} sm={12}  className="" style={{ maxWidth: 170, width: "100%" }}>
                         <p className="text-white text-center texto">¡Escanea el QR con tu smartphone!</p>
                         <QRCode
