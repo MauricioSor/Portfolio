@@ -171,7 +171,9 @@ a {
 .FadeinTop {
     animation: fadeInTop 1s ease-out forwards;
 }
-
+div.carousel-indicators,a.carousel-control-prev,a.carousel-control-next{
+    display: none;
+} 
 @keyframes fadeInTop {
     0% {
         opacity: 0;

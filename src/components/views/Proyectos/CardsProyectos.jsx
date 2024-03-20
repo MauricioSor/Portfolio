@@ -1,25 +1,36 @@
-import React from 'react';
-import {Card,Button,Container, Badge} from"react-bootstrap"
 
+import { Card, Button, Container, Badge, Carousel } from "react-bootstrap"
+import { useState } from "react"
 const CardsProyectos = ({ item }) => {
+    const [isHovered, setIsHovered] = useState(false);
+
     return (
-        <Container>
-            <Card style={{ width: '18rem',height:"27rem" }} className='m-auto' >
-                <Card.Title className='text-center my-2 fs-4'><b>{item.title}</b></Card.Title>
+        <Container onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+            <Card style={{ width: '18rem', height: "27rem" }} className='m-auto'>
+                <Card.Title className='text-center my-2 fs-4'>
+                    <b>{item.title}</b>
+                    </Card.Title>
                 <Card.Body className='text-center d-flex justify-content-center flex-column'>
-                <Card.Img className='mx-auto' variant="center" type="lazy" src={item.image} alt={`Imagen de ${item.image}`} style={{width:"220px",height:"120px"}} />
-                    <Card.Text className='mb-3'>
-                        {item.text}<br/>
-                        <br/>
-                        {item.technologies.map((item,index)=>(
-                            <Badge className='mx-1'key={index}>{item}</Badge>
+                    <Carousel interval={isHovered ? 500 : null}>
+                        {item.image.map((imagen, index) => (
+                            <Carousel.Item key={index}>
+                                <Card.Img 
+                                className='mx-auto object-fit-contain' variant="center" src={imagen} alt={`Imagen ${index}`} style={{ width: "220px", height: "120px" }} />
+                            </Carousel.Item>
                         ))}
-                        </Card.Text>
+                    </Carousel>
+                    <Card.Text className='mb-3'>
+                        {item.text}<br />
+                        <br />
+                        {item.technologies.map((item, index) => (
+                            <Badge className='mx-1' key={index}>{item}</Badge>
+                        ))}
+                    </Card.Text>
                     <Container className='mt-auto'>
-                    <Button id="butonIrALaWeb" >
-                        <a href={item.link} target='_blank' className='boton mt-5 text-black text-decoration-none fw-bold'>
-                            Ir a la web
-                        </a>
+                        <Button id="butonIrALaWeb" >
+                            <a href={item.link} target='_blank' className='boton mt-5 text-black text-decoration-none fw-bold'>
+                                Ir a la web
+                            </a>
                         </Button>
                     </Container>
                 </Card.Body>
