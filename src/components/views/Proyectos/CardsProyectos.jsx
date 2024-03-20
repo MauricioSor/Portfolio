@@ -1,5 +1,5 @@
 
-import { Card, Button, Container, Badge, Carousel } from "react-bootstrap"
+import { Card, Button,Image, Container, Badge, Carousel } from "react-bootstrap"
 import { useState } from "react"
 const CardsProyectos = ({ item }) => {
     const [isHovered, setIsHovered] = useState(false);
@@ -13,9 +13,9 @@ const CardsProyectos = ({ item }) => {
                 <Card.Body className='text-center d-flex justify-content-center flex-column'>
                     <Carousel interval={isHovered ? 1000 : null}>
                         {item.image.map((imagen, index) => (
-                            <Carousel.Item key={index}
-                            onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-                                <Card.Img
+                            <Carousel.Item key={index} onMouseEnter={() => setIsHovered(true)}>
+                                <img
+                                    onMouseEnter={() => setIsHovered(true)}
                                     className='mx-auto object-fit-contain'
                                     variant="center"
                                     src={imagen}
