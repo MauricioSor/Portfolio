@@ -56,7 +56,7 @@ const Conocimientos = () => {
         }
     ])
     return (
-        <Container>
+        <Container className='FadeInBottom'>
         <Row className=' bg-black py-2 justify-content-center d-flex'>
         <Col className="" lg={5}md={12} xs={12}>
         <div >

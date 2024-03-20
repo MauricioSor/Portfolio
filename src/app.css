@@ -22,16 +22,29 @@
 .slider .slide img {
     width: 100%;
 }
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 @keyframes scroll {
     0% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
+
     100% {
         -webkit-transform: translateX(calc(-200px *10));
         transform: translateX(calc(-200px *10));
     }
 }
+
 /*  */
 
 
@@ -57,7 +70,9 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #2ac231;
 }
-body, html {
+
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -72,12 +87,14 @@ body, html {
 .absolute {
     position: absolute;
 }
+
 .inset-0 {
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
 }
+
 .matrix-canvas {
     position: fixed;
     top: 0;
@@ -85,47 +102,111 @@ body, html {
     z-index: -1;
 }
 
-.texto{
+.texto {
     color: #2ac231;
 }
-.bg-matrix{
+
+.bg-matrix {
     background-color: #2ac231;
 }
+
 body {
-    cursor: url("./assets/icons/icons8-cursor-64.png"), auto; 
+    cursor: url("./assets/icons/icons8-cursor-64.png"), auto;
 }
 
 :root {
---success-color: #1fda25; 
+    --success-color: #1fda25;
 }
-#butonIrALaWeb, #botonEnviar, #botonCertificados{
+
+#butonIrALaWeb,
+#botonEnviar,
+#botonCertificados {
     background-color: #2ac231;
 }
+
 @media only screen and (max-width: 700px) {
     #textoFooter {
         text-align: center !important;
         margin-top: 10px !important;
     }
-    #footer{
-        margin:0 !important;
+
+    #footer {
+        margin: 0 !important;
     }
 }
+
 /* Personalizacion de botones y mouse */
-#butonIrALaWeb:hover{
-    cursor: url("./assets/icons/cursor2.png"), auto; 
+#butonIrALaWeb:hover {
+    cursor: url("./assets/icons/cursor2.png"), auto;
     background-color: #89ce8d;
 }
-a{
-    cursor: url("./assets/icons/cursor2.png"), auto; 
+
+a {
+    cursor: url("./assets/icons/cursor2.png"), auto;
 }
-#botonCertificados:hover{
+
+.redes:hover {
+    transform: scale(140%);
+}
+
+#botonCertificados:hover {
     background-color: #89ce8d;
-    cursor: url("./assets/icons/cursor2.png"), auto; 
+    cursor: url("./assets/icons/cursor2.png"), auto;
 }
-#botonEnviar:hover{
+
+#botonEnviar:hover {
     background-color: #89ce8d;
-    cursor: url("./assets/icons/cursor2.png"), auto; 
+    cursor: url("./assets/icons/cursor2.png"), auto;
 }
-.slider:hover{
-    cursor: url("./assets/icons/cursoralternativo.png"), auto; 
+
+.slider:hover {
+    cursor: url("./assets/icons/cursoralternativo.png"), auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+/* Efectos fade de transicion */
+.FadeinTop {
+    animation: fadeInTop 1s ease-out forwards;
+}
+
+@keyframes fadeInTop {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -50%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.FadeInBottom {
+    animation: fadeIBottom 1s ease-out forwards;
+}
+
+@keyframes fadeIBottom {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, 50%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.FadeInLeft {
+    animation: fadeInLeft 1.5s ease-out forwards;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-50%, 0%, 0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }

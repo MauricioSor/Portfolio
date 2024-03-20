@@ -3,7 +3,7 @@ import {Container,Image,Row} from "react-bootstrap"
 import Foto from "../../../assets/images/AcercaDeMi/foto.png"
 const Biografia = () => {
     return (
-        <div id='inicio' className=' flex items-center flex-grow p-4 mt-3 my-4 bg-black border rounded mx-3'>
+        <div id='inicio' className='FadeinTop flex items-center flex-grow p-4 mt-3 my-4 bg-black border rounded mx-3'>
             <Container id='Foto' className=' mt-5 d-flex justify-content-center '>
             <Image src={Foto} style={{width:"150px"}} className='' rounded alt="Foto de Mauricio Soria" roundedCircle/>
             </Container>
