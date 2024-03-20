@@ -45,9 +45,6 @@
     }
 }
 
-/*  */
-
-
 /* Fondo de Matrix */
 
 /* Hide the default scrollbar */
@@ -163,6 +160,12 @@ a {
     cursor: url("./assets/icons/cursoralternativo.png"), auto;
 }
 
+.proyecto:hover{
+    background-color:#1fda25!important;
+    transform: scale(105%)!important; 
+    cursor: url("./assets/icons/cursoralternativo.png"), auto;
+
+}
 .footer-container {
     display: flex;
     justify-content: center;
