@@ -12,7 +12,6 @@ const Menu = () => {
                         <p className='ms-2 mt-3 text-white'>Mauricio Agustin Soria </p>
                     </Navbar.Brand>
                     <Navbar.Toggle className='text-white' aria-controls="responsive-navbar-nav" />
-                    
                 </Container>
             </Navbar>
         </>
