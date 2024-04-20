@@ -93,10 +93,9 @@ import Imagen87 from "../../../assets/images/proyectos/GaleriaFuncos/galeriafunc
 //import Imagen89 from "../../../assets/images/proyectos/GaleriaFuncos/funcos3.png"
 //import Imagen90 from "../../../assets/images/proyectos/GaleriaFuncos/funcos4.png"
 import Imagen91 from "../../../assets/images/proyectos/MlClon/mlclon.png"
-//import Imagen92 from "../../../assets/images/proyectos/MlClon/mlclon1.png"
+import Imagen92 from "../../../assets/images/proyectos/MlClon/mlclon4.png"
 import Imagen93 from "../../../assets/images/proyectos/MlClon/mlclon2.png"
 import Imagen94 from "../../../assets/images/proyectos/MlClon/mlclon3.png"
-import Imagen95 from "../../../assets/images/proyectos/MlClon/mlclon4.png"
 import Imagen95 from "../../../assets/images/proyectos/MlClon/mlclon5.png"
 //#endregion
 const Proyectos = () => {
