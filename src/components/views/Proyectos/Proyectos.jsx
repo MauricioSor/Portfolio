@@ -89,9 +89,9 @@ import Imagen82 from "../../../assets/images/proyectos/Temporizador/temporizador
 //import Imagen85 from "../../../assets/images/proyectos/Temporizador/temporizador4.png"
 import Imagen86 from "../../../assets/images/proyectos/GaleriaFuncos/galeriafuncos.png"
 import Imagen87 from "../../../assets/images/proyectos/GaleriaFuncos/galeriafuncos1.png"
-//import Imagen88 from "../../../assets/images/proyectos/GaleriaFuncos/funcos2.png"
-//import Imagen89 from "../../../assets/images/proyectos/GaleriaFuncos/funcos3.png"
-//import Imagen90 from "../../../assets/images/proyectos/GaleriaFuncos/funcos4.png"
+import Imagen88 from "../../../assets/images/proyectos/MauResto/captura1.png"
+import Imagen89 from "../../../assets/images/proyectos/MauResto/MaubarDBModel.png"
+import Imagen90 from "../../../assets/images/proyectos/MauResto/captura2.png"
 import Imagen91 from "../../../assets/images/proyectos/MlClon/mlclon.png"
 import Imagen92 from "../../../assets/images/proyectos/MlClon/mlclon4.png"
 import Imagen93 from "../../../assets/images/proyectos/MlClon/mlclon2.png"
@@ -270,7 +270,7 @@ const Proyectos = () => {
         {
             id:20,
             title:"Tucu Libre",
-            image:[Imagen92,Imagen93,Imagen94,Imagen95],
+            image:[Imagen88,Imagen89,Imagen90],
             text:"Software desarrollado específicamente para dispositivos móviles, en la plataforma de expo",
             link:"https://expo.dev/preview/update?message=Merge%20branch%20%27dev-jas%27%20of%20https%3A%2F%2Fgithub.com%2FG3-R-Avanzado%2FFrontend-Native%20into%20dev%0A%0A%23%20Conflicts%3A%0A%23%09src%2Fstore%2FSlices%2Fpublication&updateRuntimeVersion=1.0.0&createdAt=2024-04-17T22%3A10%3A01.729Z&slug=exp&projectId=feba06fb-143d-493b-9704-0b3ea8dc57ef&group=e1d0a534-3bf8-4844-b51d-323fca6d3a53",
             technologies:["React native","Javascript","MongoDB"]
