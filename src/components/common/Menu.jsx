@@ -1,8 +1,9 @@
 import * as React from 'react';
 import { Nav, Navbar, Container, Image, Form, NavDropdown, Button } from "react-bootstrap"
 import Logo from "../../assets/images/AcercaDeMi/logo1.png"
-const Menu = () => {
 
+
+const Menu = ({CambioIdioma,idioma}) => {
     return (
         <>
             <Navbar expand="md" className="bg-dark site-wrap" variant='dark' fixed='top'>
@@ -12,10 +13,19 @@ const Menu = () => {
                         <p className='ms-2 mt-3 text-white'>Mauricio Agustin Soria </p>
                     </Navbar.Brand>
                     <Navbar.Toggle className='text-white' aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="navbarScroll" className='responsive-navbar-nav'>
-                        <Nav className="ms-auto"style={{ maxHeight: '100px' }} navbarScroll>
-                            <Nav.Link href="#inicio"className='' >Inicio</Nav.Link>
-                            <Nav.Link href="#contacto"className='' to >Contacto</Nav.Link>
+                    <Navbar.Collapse id="navbarScroll" className=' responsive-navbar-nav'>
+                        <Nav className="ms-auto" style={{ maxHeight: '100px' }} navbarScroll>
+                                <Container className='m-auto switch'>
+                                    <Form.Check
+                                        className='text-white mt-1 switch'
+                                        type="switch"
+                                        id="custom-switch"
+                                        label={idioma ? ("EN") : ("ES")}
+                                        onChange={() => CambioIdioma()}
+                                    />
+                                </Container>
+                            <Nav.Link href="#inicio" className='' >Inicio</Nav.Link>
+                            <Nav.Link href="#contacto" className='' to >Contacto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

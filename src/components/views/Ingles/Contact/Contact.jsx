@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Form, Row, Col, Button } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
-import { enviarEmail } from '../../../helpers/queries';
+import { enviarEmail } from '../../../../helpers/queries';
 import Swal from 'sweetalert2';
 
 
-const Contacto = () => {
+const Contact = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
     
     const enviar = async (mensaje) => {
@@ -124,4 +124,4 @@ const Contacto = () => {
     );
 };
 
-export default Contacto;
+export default Contact;
