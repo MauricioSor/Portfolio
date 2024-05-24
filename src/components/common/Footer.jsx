@@ -1,9 +1,11 @@
 import QRCode from "react-qr-code";
 import { Row, Col, Container } from "react-bootstrap";
-import github from "../../assets/icons/github.png"
-import linkedin from "../../assets/icons/linkedin.png"
-import gmail from "../../assets/icons/gmail.png"
-import { redes } from "../../types/urls"
+import linkedinOscuro from "../../assets/icons/linkedin-oscuro.png"
+import linkedinClaro from "../../assets/icons/linkedin-claro.png"
+import gmailClaro from "../../assets/icons/gmail-claro.png"
+import gmailOscuro from "../../assets/icons/gmail-oscuro.png"
+import githubClaro from"../../assets/icons/github-claro.png"
+import {redes} from "../../types/urls"
 
 const Footer = () => {
 
@@ -27,9 +29,9 @@ const Footer = () => {
                         <Container className="text-center">
                             <p className="text-light  text-center" id="textoFooter">Mis redes sociales</p>
                             <Container className="d-flex justify-content-center">
-                                <a href={(redes.GitHub)} target="blank" className="mx-3 redes p-2" ><img src={github} alt="Imagen de github"  style={{ width: "30px", margin: "3px" }} /></a>
-                                <a href={redes.linkedin} target="blank" className="mx-3 redes p-2" ><img src={linkedin} alt="Imagen de linkedin"  style={{ width: "30px", margin: "3px" }} /></a>
-                                <a href={redes.Gmail} target="blank" className="mx-3 redes p-2"><img src={gmail} alt="Imagen de gmail"  style={{ width: "30px", margin: "3px" }} /></a>
+                                <a href={(redes.GitHub)} target="blank" id="footerGithub" className="mx-3 redes p-2" ><img src={githubClaro} alt="Imagen de github"  style={{ width: "30px", margin: "3px" }} /></a>
+                                <a href={redes.linkedin} target="blank" id="footerLinkedin" className="mx-3 redes p-2" ><img src={linkedinClaro} alt="Imagen de linkedin"  style={{ width: "30px", margin: "3px" }} /></a>
+                                <a href={redes.Gmail} target="blank" id="footerGmail" className="mx-3 redes p-2"><img src={gmailClaro} alt="Imagen de gmail"  style={{ width: "30px", margin: "3px" }} /></a>
                             </Container>
                         </Container>
                     </Col>

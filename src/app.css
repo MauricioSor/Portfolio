@@ -169,6 +169,16 @@ a {
     display: flex;
     justify-content: center;
 }
+#footerLinkedin:hover{
+    content: url("./assets/icons/linkedin-oscuro.png"),auto;
+}
+#footerGithub:hover{
+    content: url("./assets/icons/github.png"),auto;
+
+}
+#footerGmail:hover{
+    content: url("./assets/icons/gmail-oscuro.png"),auto;
+}
 /* Efectos fade de transicion */
 .FadeinTop {
     animation: fadeInTop 1s ease-out forwards;

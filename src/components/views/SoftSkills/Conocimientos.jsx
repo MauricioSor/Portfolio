@@ -39,6 +39,12 @@ const Conocimientos = () => {
             lenguaje:"Github/git"
         },
         {
+            lenguaje:"Vercel"
+        },
+        {
+            lenguaje:"Netlify"
+        },
+        {
             lenguaje:"Git"
         },
         {
