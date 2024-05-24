@@ -101,6 +101,23 @@ import Imagen95 from "../../../assets/images/proyectos/MlClon/mlclon5.png"
 const Proyectos = () => {
     const [proyectos,setProyectos]=useState([
         {
+            id:21,
+            title:"Mau's Restobar",
+            image:[Imagen88,Imagen89,Imagen90],
+            text:"Pequeño sistema genérico desarrollado con la finalidad de presentar en el final de Programación web de la carrera de ISI",
+            link:"https://mau-sr-restaurant.vercel.app/",
+            technologies:["React","Javascript","MongoDB","Node","Express"]
+        },        
+        {
+            id:5,
+            title:"Train Gym",
+            image:[Imagen21,Imagen22,Imagen23,Imagen24,Imagen25],
+            text:"Proyecto desarrollado para un cliente,recibió soporte hasta mediados del 2023",
+            link:"https://train-cde.netlify.app",
+            technologies:["Javascript","Bootstrap"]
+            
+        },
+        {
             id:1,
             title:"RollingVet",
             image:[Imagen1,Imagen2,Imagen3,Imagen4,Imagen5],
@@ -115,6 +132,31 @@ const Proyectos = () => {
             text:"Proyecto de fin de modulo desarrollado en equipo para Rolling Code School",
             link:"https://rollingfitplus.netlify.app/",
             technologies:["Javascript","Bootstrap","LocalStorage","SesionStorage"]
+        },
+        {
+            id:12,
+            title:"Streamify+",
+            image:[Imagen56,Imagen57,Imagen58,Imagen59,Imagen60],
+            text:"Proyecto de fin de modulo desarrollado en equipo para Rolling Code School",
+            link:"https://streamify-plus.netlify.app",
+            technologies:["Javascript","css"]
+            
+        },
+        {
+            id:20,
+            title:"Tucu Libre",
+            image:[Imagen92,Imagen93,Imagen94,Imagen95],
+            text:"Software desarrollado específicamente para dispositivos móviles, en la plataforma de expo",
+            link:"https://expo.dev/preview/update?message=Merge%20branch%20%27dev-jas%27%20of%20https%3A%2F%2Fgithub.com%2FG3-R-Avanzado%2FFrontend-Native%20into%20dev%0A%0A%23%20Conflicts%3A%0A%23%09src%2Fstore%2FSlices%2Fpublication&updateRuntimeVersion=1.0.0&createdAt=2024-04-17T22%3A10%3A01.729Z&slug=exp&projectId=feba06fb-143d-493b-9704-0b3ea8dc57ef&group=e1d0a534-3bf8-4844-b51d-323fca6d3a53",
+            technologies:["React native","Javascript","MongoDB"]
+        },
+        {
+            id:19,
+            title:"TucuLibre",
+            image:[Imagen91/* ,Imagen92,Imagen93,Imagen94,Imagen95 */],
+            text:"Una pagina inspirada en Mercado Libre, la cual fue desarrollada para asentar conocimientos de custom Hooks y redux toolkit",
+            link:"https://tuculibre.netlify.app",
+            technologies:["Javascript","React-Bootstrap","Node js","MongoDB"]
         },
         {
             id:3,
@@ -132,15 +174,6 @@ const Proyectos = () => {
             text:"TucuParking fue desarrollada como ejercitacion de,utilizando conceptos de backend y frontend",
             link:"https://blog-recetas-msor.netlify.app",
             technologies:["Javascript","React-bootstrap","Node js","Express js"]
-            
-        },
-        {
-            id:5,
-            title:"Train Gym",
-            image:[Imagen21,Imagen22,Imagen23,Imagen24,Imagen25],
-            text:"Proyecto desarrollado para un cliente,recibió soporte hasta mediados del 2023",
-            link:"https://train-cde.netlify.app",
-            technologies:["Javascript","Bootstrap"]
             
         },
         {
@@ -198,15 +231,6 @@ const Proyectos = () => {
             
         },
         {
-            id:12,
-            title:"Streamify+",
-            image:[Imagen56,Imagen57,Imagen58,Imagen59,Imagen60],
-            text:"Proyecto de fin de modulo desarrollado en equipo para Rolling Code School",
-            link:"https://streamify-plus.netlify.app",
-            technologies:["Javascript","css"]
-            
-        },
-        {
             id:13,
             title:"Pokedex API",
             image:[Imagen61/* ,Imagen62,Imagen63,Imagen64,Imagen65 */],
@@ -259,33 +283,8 @@ const Proyectos = () => {
             link:"https://galeria-de-funkos-mauricio-soria.netlify.app",
             technologies:["Javascript","css"]
             
-        },{
-            id:19,
-            title:"TucuLibre",
-            image:[Imagen91/* ,Imagen92,Imagen93,Imagen94,Imagen95 */],
-            text:"Una pagina inspirada en Mercado Libre, la cual fue desarrollada para asentar conocimientos de custom Hooks y redux toolkit",
-            link:"https://tuculibre.netlify.app",
-            technologies:["Javascript","React-Bootstrap","Node js","MongoDB"]
         },
-        {
-            id:20,
-            title:"Tucu Libre",
-            image:[Imagen92,Imagen93,Imagen94,Imagen95],
-            text:"Software desarrollado específicamente para dispositivos móviles, en la plataforma de expo",
-            link:"https://expo.dev/preview/update?message=Merge%20branch%20%27dev-jas%27%20of%20https%3A%2F%2Fgithub.com%2FG3-R-Avanzado%2FFrontend-Native%20into%20dev%0A%0A%23%20Conflicts%3A%0A%23%09src%2Fstore%2FSlices%2Fpublication&updateRuntimeVersion=1.0.0&createdAt=2024-04-17T22%3A10%3A01.729Z&slug=exp&projectId=feba06fb-143d-493b-9704-0b3ea8dc57ef&group=e1d0a534-3bf8-4844-b51d-323fca6d3a53",
-            technologies:["React native","Javascript","MongoDB"]
-        },
-        {
-            id:21,
-            title:"Mau's Restobar",
-            image:[Imagen88,Imagen89,Imagen90],
-            text:"Pequeño sistema genérico desarrollado con la finalidad de presentar en el final de Programación web de la carrera de ISI",
-            link:"https://mau-sr-restaurant.vercel.app/",
-            technologies:["React","Javascript","MongoDB","Node","Express"]
-        }
-
     ])
-
     return (
         <>
             <Container className="FadeInLeft  bg-black container my-2 py-3 ">
