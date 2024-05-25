@@ -75,8 +75,9 @@ const Conocimientos = () => {
         <Container className='FadeInBottom'>
         <Row className=' bg-black py-2 justify-content-center d-flex'>
         <Col className="" lg={5}md={12} xs={12}>
+        
         <div >
-        <h2 className='fs-2 texto text-center my-2'>Tecnologias dominantes</h2>
+        <h2 className='fs-2 texto text-center my-2'><u className='subrayados'>Tecnologias dominantes</u></h2>
         {
             lenguajes.map((item,index)=>(
                 <Atributos item={item} key={index}/>
@@ -86,7 +87,7 @@ const Conocimientos = () => {
         </Col>
         <Col className="" lg={5}md={12} xs={12}>
         <div>
-        <h2 className='fs-2 texto text-center my-2'>SoftSkills</h2>
+        <h2 className='fs-2 texto text-center my-2'><u className='subrayados'>SoftSkills</u></h2>
         {
             sofSkills.map((item,index)=>(
                 <Skills item={item} key={index}/>

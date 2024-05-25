@@ -147,7 +147,9 @@ a {
 .redes:hover {
     transform: scale(140%);
 }
-
+.subrayados{
+    color: #2ac231
+}
 #botonCertificados:hover {
     background-color: #89ce8d;
     cursor: url("./assets/icons/cursor2.png"), auto;
