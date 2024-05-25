@@ -49,10 +49,10 @@ const Contact = () => {
         <div id='contacto' className='bg-black py-3 mb-3 d-flex justify-content-center flex-column border-dark rounded'>
             <h2 className='texto fs-2 text-center'  >¡Contact me!</h2>
             <Container className=''>
-                <Form onSubmit={handleSubmit(enviar)}>
+            <Form onSubmit={handleSubmit(enviar)} className='d-flex flex-column'>
                     <Row className="mb-6">
                         <Form.Group as={Col} md="6" >
-                            <Form.Label className='texto'>Name: </Form.Label>
+                            <Form.Label className='texto mt-2'>Name: </Form.Label>
                             <Form.Control
                                 required
                                 type="text"
@@ -76,7 +76,7 @@ const Contact = () => {
                             <Form.Text className='text-danger'>{errors.nombre?.message}</Form.Text>
                         </Form.Group>
                         <Form.Group as={Col} md="6" >
-                            <Form.Label className='texto'>Message: </Form.Label>
+                            <Form.Label className='texto mt-2'>Message: </Form.Label>
                             <Form.Control
                                 required
                                 type="text"
@@ -97,7 +97,7 @@ const Contact = () => {
                             <Form.Text className='text-danger'>{errors.mensaje?.message}</Form.Text>
                         </Form.Group>
                         <Form.Group as={Col} md="6" >
-                            <Form.Label className='texto'>Mail: </Form.Label>
+                            <Form.Label className='texto mt-2'>Mail: </Form.Label>
                             <Form.Control
                                 required
                                 type="text"
@@ -117,7 +117,7 @@ const Contact = () => {
                             <Form.Text className='text-danger'>{errors.nombre?.message}</Form.Text>
                         </Form.Group>
                     </Row>
-                    <Button id='botonEnviar' className='mt-2 text-black' type="submit">Send</Button>
+                    <Button  id='botonEnviar' className='mt-3  text-black' type="submit">Send</Button>
                 </Form>
             </Container>
         </div>
