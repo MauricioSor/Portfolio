@@ -8,8 +8,7 @@ const Biography = () => {
             <Image src={Foto} style={{width:"150px"}} className='' rounded alt="Foto de Mauricio Soria" roundedCircle/>
             </Container>
             <h5 className='display-5 text-center texto'> About Me</h5>
-            <p className='text-center texto'>"Estudiante de Ingeniería en Sistemas de Información en UTN-FRT. Apasionado por el crecimiento personal y el desarrollo en tecnología. Siempre actualizado con las últimas tendencias, me encanta aprender sobre nuevas tecnologías y aplicarlas en el desarrollo de software para ofrecer soluciones eficientes a los problemas del cliente"</p>
-            <p className='text-center texto'>"I'm a student of Systems information enginner in UTN-FRT. I'm passionate for the personal improvement and the newer technologies. I'triying to learn day per day, about tech trends, "</p>
+            <p className='text-center texto'>"I'm a student of Systems information enginner in UTN-FRT. I'm passionate for the personal improvement and the newer technologies. I triying to learn day per day, about tech trends and improve into know concepts,I like to know newer technologies to applicating into software solutions and user experience "</p>
         </div>
     );
 };

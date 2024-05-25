@@ -17,7 +17,7 @@ export function App() {
             <Main/>:
             <Principal/>
           }
-      <Footer />
+      <Footer idioma={idioma} />
     </>
   )
 }

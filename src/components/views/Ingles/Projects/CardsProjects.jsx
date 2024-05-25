@@ -35,7 +35,7 @@ const CardsProjects = ({ item }) => {
                     <Container className='mt-auto'>
                         <Button id="butonIrALaWeb">
                             <a href={item.link} target='_blank' className='boton mt-5 text-black text-decoration-none fw-bold'>
-                                Ir a la web
+                                Go web
                             </a>
                         </Button>
                     </Container>

@@ -24,8 +24,8 @@ const Menu = ({CambioIdioma,idioma}) => {
                                         onChange={() => CambioIdioma()}
                                     />
                                 </Container>
-                            <Nav.Link href="#inicio" className='' >Inicio</Nav.Link>
-                            <Nav.Link href="#contacto" className='' to >Contacto</Nav.Link>
+                            <Nav.Link href="#inicio" className='' >{idioma?("Home"):("Inicio")}</Nav.Link>
+                            <Nav.Link href="#contacto" className='' to >{idioma?("Contact"):("Contacto")}</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

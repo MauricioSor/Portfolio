@@ -104,7 +104,7 @@ const Projects = () => {
             id:21,
             title:"Mau's Restobar",
             image:[Imagen88,Imagen89,Imagen90],
-            text:"Pequeño sistema genérico desarrollado con la finalidad de presentar en el final de Programación web de la carrera de ISI",
+            text:"Little generic system developed for an final exam to the university on Web development asignature",
             link:"https://mau-sr-restaurant.vercel.app/",
             technologies:["React","Javascript","MongoDB","Node","Express"]
         },        
@@ -112,7 +112,7 @@ const Projects = () => {
             id:5,
             title:"Train Gym",
             image:[Imagen21,Imagen22,Imagen23,Imagen24,Imagen25],
-            text:"Proyecto desarrollado para un cliente,recibió soporte hasta mediados del 2023",
+            text:"Project freelance for a client, this  application maintance ended in 2023  Proyecto desarrollado para un cliente,recibió soporte hasta mediados del 2023",
             link:"https://train-cde.netlify.app",
             technologies:["Javascript","Bootstrap"]
             
@@ -121,7 +121,7 @@ const Projects = () => {
             id:1,
             title:"RollingVet",
             image:[Imagen1,Imagen2,Imagen3,Imagen4,Imagen5],
-            text:"Proyecto de fin de modulo grupal, con desarrollo en frontend,backend y database para Rolling Code Tucuman",
+            text:"Project to end module in Rolling Code, this project was developed with a team, for learn and know tecnicalls ",
             link:"https://rolling-veterinaria-frontend.vercel.app/",
             technologies:["Javascript","React-bootstrap","Node js","Express js","Jwt","MongoDB"]
         },
@@ -129,7 +129,7 @@ const Projects = () => {
             id:2,
             title:"RollingFit",
             image:[Imagen6,Imagen7,Imagen8,Imagen9,Imagen10],
-            text:"Proyecto de fin de modulo desarrollado en equipo para Rolling Code School",
+            text:"End of module project developed on team for, Rolling Code School",
             link:"https://rollingfitplus.netlify.app/",
             technologies:["Javascript","Bootstrap","LocalStorage","SesionStorage"]
         },
@@ -137,7 +137,7 @@ const Projects = () => {
             id:12,
             title:"Streamify+",
             image:[Imagen56,Imagen57,Imagen58,Imagen59,Imagen60],
-            text:"Proyecto de fin de modulo desarrollado en equipo para Rolling Code School",
+            text:"End of module project developed on team for, Rolling Code School",
             link:"https://streamify-plus.netlify.app",
             technologies:["Javascript","css"]
             
@@ -146,7 +146,7 @@ const Projects = () => {
             id:20,
             title:"Tucu Libre",
             image:[Imagen92,Imagen93,Imagen94,Imagen95],
-            text:"Software desarrollado específicamente para dispositivos móviles, en la plataforma de expo",
+            text:"Software developed especificly to movile devices, on expo plataform",
             link:"https://expo.dev/preview/update?message=Merge%20branch%20%27dev-jas%27%20of%20https%3A%2F%2Fgithub.com%2FG3-R-Avanzado%2FFrontend-Native%20into%20dev%0A%0A%23%20Conflicts%3A%0A%23%09src%2Fstore%2FSlices%2Fpublication&updateRuntimeVersion=1.0.0&createdAt=2024-04-17T22%3A10%3A01.729Z&slug=exp&projectId=feba06fb-143d-493b-9704-0b3ea8dc57ef&group=e1d0a534-3bf8-4844-b51d-323fca6d3a53",
             technologies:["React native","Javascript","MongoDB"]
         },
@@ -162,7 +162,7 @@ const Projects = () => {
             id:3,
             title:"TucuParking",
             image:[Imagen11,Imagen12,Imagen13,Imagen14,Imagen15],
-            text:"Como Trabajo final Integrador para la materia Ingenieria de Requerimientos 4to año UTN-FRT",
+            text:"This project was developed for end of course for Ingenieria de Requerimientos in UTN-FRT",
             link:"https://tucu-parking.netlify.app/",
             technologies:["Javascript","React-bootstrap","LocalStorage"]
             
@@ -171,7 +171,7 @@ const Projects = () => {
             id:4,
             title:"Blog de Recetas",
             image:[Imagen16,Imagen17,Imagen18,Imagen19,Imagen20],
-            text:"TucuParking fue desarrollada como ejercitacion de,utilizando conceptos de backend y frontend",
+            text:"TucuParking was developed for learn and improve on programming",
             link:"https://blog-recetas-msor.netlify.app",
             technologies:["Javascript","React-bootstrap","Node js","Express js"]
             
@@ -180,7 +180,7 @@ const Projects = () => {
             id:6,
             title:"Pronostico del clima",
             image:[Imagen26,Imagen27/* ,Imagen28,Imagen29,Imagen30 */],
-            text:"Desarrollado como practica para el consumo de APIs y manejo de respuestas",
+            text:"Developed to practice for API use and management",
             link:"https://papaya-pavlova-c65a56.netlify.app",
             technologies:["Javascript","React-bootstrap"]
             
@@ -189,7 +189,7 @@ const Projects = () => {
             id:7,
             title:"Buscador de Noticias",
             image:[Imagen31,Imagen32/* ,Imagen33,Imagen34,Imagen35 */],
-            text:"Desarrollado como practica para el consumo de APIs y manejo de respuestas",
+            text:"Developed to practice for API use and management",
             link:"https://serene-creponne-864349.netlify.app/",
             technologies:["Javascript","React-bootstrap"]
             
@@ -252,7 +252,7 @@ const Projects = () => {
             id:15,
             title:"Numeros Magicos",
             image:[Imagen71/* ,Imagen72,Imagen73,Imagen74,Imagen75 */],
-            text:"Juego desarrollado como practica con javascript y conceptos de maquetado y estilizado",
+            text:"Game developed to practice Javascript, layout concepts, and stlish css",
             link:"https://admirable-parfait-3d4843.netlify.app",
             technologies:["Javascript","css"]
             
@@ -288,7 +288,7 @@ const Projects = () => {
     return (
         <>
             <Container className="FadeInLeft  bg-black container my-2 py-3 ">
-                <h2 className="texto mb-3">Mis proyectos</h2>
+                <h2 className="texto mb-3">My Projects</h2>
                 <Row className="container m-auto d-flex justify-content-center align-items-center">
                 {proyectos.map((item) =>(
                     <Col key={item.id}  lg={3} md={5} sm={12} className="mb-3">

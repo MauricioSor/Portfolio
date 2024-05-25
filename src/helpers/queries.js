@@ -1,6 +1,4 @@
 
-import axios from "axios";
-
 export const enviarEmail = async (mensaje) => {
     try {
         const respuesta = await fetch('https://emailsender-snowy.vercel.app/enviar', {

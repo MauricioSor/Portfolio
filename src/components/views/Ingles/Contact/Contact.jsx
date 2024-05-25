@@ -47,16 +47,16 @@ const Contact = () => {
     return (
         
         <div id='contacto' className='bg-black py-3 mb-3 d-flex justify-content-center flex-column border-dark rounded'>
-            <h2 className='texto fs-2 text-center'  >¡Pongamonos en contacto!</h2>
+            <h2 className='texto fs-2 text-center'  >¡Contact me!</h2>
             <Container className=''>
                 <Form onSubmit={handleSubmit(enviar)}>
                     <Row className="mb-6">
                         <Form.Group as={Col} md="6" >
-                            <Form.Label className='texto'>Nombre: </Form.Label>
+                            <Form.Label className='texto'>Name: </Form.Label>
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder="Ingrese su nombre..."
+                                placeholder="Enter your name..."
                                 {...register("nombre", {
                                     required: "El nombre es un campo necesario",
                                     minLength: {
@@ -76,11 +76,11 @@ const Contact = () => {
                             <Form.Text className='text-danger'>{errors.nombre?.message}</Form.Text>
                         </Form.Group>
                         <Form.Group as={Col} md="6" >
-                            <Form.Label className='texto'>Mensaje: </Form.Label>
+                            <Form.Label className='texto'>Message: </Form.Label>
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder="Escriba un mensaje de texto"
+                                placeholder="Enter a message..."
                                 
                                 {...register("mensaje", {
                                     required: "Es necesario que escriba un mensaje",
@@ -97,11 +97,11 @@ const Contact = () => {
                             <Form.Text className='text-danger'>{errors.mensaje?.message}</Form.Text>
                         </Form.Group>
                         <Form.Group as={Col} md="6" >
-                            <Form.Label className='texto'>Correo: </Form.Label>
+                            <Form.Label className='texto'>Mail: </Form.Label>
                             <Form.Control
                                 required
                                 type="text"
-                                placeholder="Ingrese su correo..."
+                                placeholder="Enter your email..."
                                 {...register("correo", {
                                     required: "El correo es un campo necesario",
                                     minLength: {
@@ -117,7 +117,7 @@ const Contact = () => {
                             <Form.Text className='text-danger'>{errors.nombre?.message}</Form.Text>
                         </Form.Group>
                     </Row>
-                    <Button id='botonEnviar' className='mt-2 text-black' type="submit">Enviar</Button>
+                    <Button id='botonEnviar' className='mt-2 text-black' type="submit">Send</Button>
                 </Form>
             </Container>
         </div>
