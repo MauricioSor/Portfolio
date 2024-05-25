@@ -287,7 +287,7 @@ const Proyectos = () => {
     ])
     return (
         <>
-            <Container className="FadeInLeft  bg-black container my-2 py-3 ">
+            <Container id="proyectos" className="FadeInLeft  bg-black container my-2 py-3 ">
                 <h2 className="texto mb-3">Mis proyectos</h2>
                 <Row className="container m-auto d-flex justify-content-center align-items-center">
                 {proyectos.map((item) =>(
