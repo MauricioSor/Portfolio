@@ -141,7 +141,9 @@ body {
 a {
     cursor: url("./assets/icons/cursor2.png"), auto;
 }
-
+.switch:hover{
+    cursor: url("./assets/icons/cursor2.png"), auto;
+}
 .redes:hover {
     transform: scale(140%);
 }
@@ -160,32 +162,79 @@ a {
     cursor: url("./assets/icons/cursoralternativo.png"), auto;
 }
 
-.proyecto:hover{
-    background-color:#1fda25!important;
-    transform: scale(105%)!important; 
+.proyecto:hover {
+    background-color: #1fda25 !important;
+    transform: scale(105%) !important;
     cursor: url("./assets/icons/cursoralternativo.png"), auto;
 }
+
 .footer-container {
     display: flex;
     justify-content: center;
 }
+
+#footerLinkedin:hover {
+    content: url("./assets/icons/linkedin-oscuro.png"), auto;
+}
+
+#footerGithub:hover {
+    content: url("./assets/icons/github.png"), auto;
+
+}
+
+#footerGmail:hover {
+    content: url("./assets/icons/gmail-oscuro.png"), auto;
+}
+
+/* switch boton */
+.toggle:before,
+.toggle:after {
+    content: "ON";
+    position: absolute;
+    font-size: 12px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 0;
+    color: #47c;
+}
+
+.toggle:after {
+    content: "OFF";
+    margin-top: -40px;
+    margin-left: 50px;
+    color: #666;
+}
+
+label {
+    position: relative;
+    z-index: 1;
+}
+
 /* Efectos fade de transicion */
 .FadeinTop {
     animation: fadeInTop 1s ease-out forwards;
 }
-div.carousel-indicators,a.carousel-control-prev,a.carousel-control-next{
+
+div.carousel-indicators,
+a.carousel-control-prev,
+a.carousel-control-next {
     display: none;
-} 
+}
+
 @keyframes fadeInTop {
     0% {
         opacity: 0;
         transform: translate3d(0, -50%, 0);
     }
+
     100% {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
+
 .FadeInBottom {
     animation: fadeIBottom 1s ease-out forwards;
 }
@@ -195,11 +244,13 @@ div.carousel-indicators,a.carousel-control-prev,a.carousel-control-next{
         opacity: 0;
         transform: translate3d(0, 50%, 0);
     }
+
     100% {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
 }
+
 .FadeInLeft {
     animation: fadeInLeft 1.5s ease-out forwards;
 }
@@ -209,6 +260,7 @@ div.carousel-indicators,a.carousel-control-prev,a.carousel-control-next{
         opacity: 0;
         transform: translate3d(-50%, 0%, 0);
     }
+
     100% {
         opacity: 1;
         transform: translate3d(0, 0, 0);
