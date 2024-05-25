@@ -1,10 +1,14 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
+import { Container,Col } from 'react-bootstrap';
 
-const Skills = ({item}) => {
+const Skills = ({ item }) => {
     return (
         <>
-            <li className='texto fs-4 ms-2'>{item.skill}</li>
+            <div className='d-flex '>
+                <Col>
+                    <li className='mx-2 texto fs-4'>{item.skill}</li>
+                </Col>
+            </div>
         </>
     );
 };

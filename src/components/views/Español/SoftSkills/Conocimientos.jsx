@@ -84,15 +84,15 @@ const Conocimientos = () => {
         }
         </div>
         </Col>
-        <Col className="" lg={5}md={12}>
-        <h3 className='fs-2 texto text-center my-2'>SoftSkills</h3>
-        <ul className="">
+        <Col className="" lg={5}md={12} xs={12}>
+        <div>
+        <h2 className='fs-2 texto text-center my-2'>SoftSkills</h2>
         {
             sofSkills.map((item,index)=>(
                 <Skills item={item} key={index}/>
             ))
         }
-        </ul>
+        </div>
         </Col>
         </Row>
         </Container>
