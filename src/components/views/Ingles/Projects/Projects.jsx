@@ -112,7 +112,7 @@ const Projects = () => {
             id:5,
             title:"Train Gym",
             image:[Imagen21,Imagen22,Imagen23,Imagen24,Imagen25],
-            text:"Project freelance for a client, this  application maintance ended in 2023  Proyecto desarrollado para un cliente,recibió soporte hasta mediados del 2023",
+            text:"Freelance project for a client. Maintenance for this application ended in 2023",
             link:"https://train-cde.netlify.app",
             technologies:["Javascript","Bootstrap"]
             
@@ -121,7 +121,7 @@ const Projects = () => {
             id:1,
             title:"RollingVet",
             image:[Imagen1,Imagen2,Imagen3,Imagen4,Imagen5],
-            text:"Project to end module in Rolling Code, this project was developed with a team, for learn and know tecnicalls ",
+            text:"Final module project at Rolling Code. This project was developed with a team for learning and mastering technical skills.",
             link:"https://rolling-veterinaria-frontend.vercel.app/",
             technologies:["Javascript","React-bootstrap","Node js","Express js","Jwt","MongoDB"]
         },
@@ -129,7 +129,7 @@ const Projects = () => {
             id:2,
             title:"RollingFit",
             image:[Imagen6,Imagen7,Imagen8,Imagen9,Imagen10],
-            text:"End of module project developed on team for, Rolling Code School",
+            text:"End-of-module project developed as a team for Rolling Code School.",
             link:"https://rollingfitplus.netlify.app/",
             technologies:["Javascript","Bootstrap","LocalStorage","SesionStorage"]
         },
@@ -137,7 +137,7 @@ const Projects = () => {
             id:12,
             title:"Streamify+",
             image:[Imagen56,Imagen57,Imagen58,Imagen59,Imagen60],
-            text:"End of module project developed on team for, Rolling Code School",
+            text:"End-of-module project developed as a team for Rolling Code School",
             link:"https://streamify-plus.netlify.app",
             technologies:["Javascript","css"]
             
@@ -146,7 +146,7 @@ const Projects = () => {
             id:20,
             title:"Tucu Libre",
             image:[Imagen92,Imagen93,Imagen94,Imagen95],
-            text:"Software developed especificly to movile devices, on expo plataform",
+            text:"Software developed specifically for mobile devices.",
             link:"https://expo.dev/preview/update?message=Merge%20branch%20%27dev-jas%27%20of%20https%3A%2F%2Fgithub.com%2FG3-R-Avanzado%2FFrontend-Native%20into%20dev%0A%0A%23%20Conflicts%3A%0A%23%09src%2Fstore%2FSlices%2Fpublication&updateRuntimeVersion=1.0.0&createdAt=2024-04-17T22%3A10%3A01.729Z&slug=exp&projectId=feba06fb-143d-493b-9704-0b3ea8dc57ef&group=e1d0a534-3bf8-4844-b51d-323fca6d3a53",
             technologies:["React native","Javascript","MongoDB"]
         },
@@ -154,15 +154,15 @@ const Projects = () => {
             id:19,
             title:"TucuLibre",
             image:[Imagen91/* ,Imagen92,Imagen93,Imagen94,Imagen95 */],
-            text:"Una pagina inspirada en Mercado Libre, la cual fue desarrollada para asentar conocimientos de custom Hooks y redux toolkit",
+            text:"This page was inspired by Mercado Libre, was developed for learn about Custom Hooks and Redux Toolkit,",
             link:"https://tuculibre.netlify.app",
-            technologies:["Javascript","React-Bootstrap","Node js","MongoDB"]
+            technologies:["Javascript","React-Bootstrap","Node js","MongoDB","Custom Hooks","Redux"]
         },
         {
             id:3,
             title:"TucuParking",
             image:[Imagen11,Imagen12,Imagen13,Imagen14,Imagen15],
-            text:"This project was developed for end of course for Ingenieria de Requerimientos in UTN-FRT",
+            text:"This project was developed for the end of the course in Requirements Engineering at UTN-FRT",
             link:"https://tucu-parking.netlify.app/",
             technologies:["Javascript","React-bootstrap","LocalStorage"]
             
@@ -171,7 +171,7 @@ const Projects = () => {
             id:4,
             title:"Blog de Recetas",
             image:[Imagen16,Imagen17,Imagen18,Imagen19,Imagen20],
-            text:"TucuParking was developed for learn and improve on programming",
+            text:"This project was developed for practice with React js and Node js, states management,APIs,Models,Endpoints and properties ",
             link:"https://blog-recetas-msor.netlify.app",
             technologies:["Javascript","React-bootstrap","Node js","Express js"]
             
@@ -180,7 +180,7 @@ const Projects = () => {
             id:6,
             title:"Pronostico del clima",
             image:[Imagen26,Imagen27/* ,Imagen28,Imagen29,Imagen30 */],
-            text:"Developed to practice for API use and management",
+            text:"Developed to practice using and managing APIs",
             link:"https://papaya-pavlova-c65a56.netlify.app",
             technologies:["Javascript","React-bootstrap"]
             
@@ -189,7 +189,7 @@ const Projects = () => {
             id:7,
             title:"Buscador de Noticias",
             image:[Imagen31,Imagen32/* ,Imagen33,Imagen34,Imagen35 */],
-            text:"Developed to practice for API use and management",
+            text:"Developed to practice using and managing APIs",
             link:"https://serene-creponne-864349.netlify.app/",
             technologies:["Javascript","React-bootstrap"]
             
@@ -198,7 +198,7 @@ const Projects = () => {
             id:8,
             title:"Lista de tareas",
             image:[Imagen36,Imagen37/* ,Imagen38,Imagen39,Imagen40 */],
-            text:"Practica con React, manejo de estados y propiedades",
+            text:"This project was developed for practice with React js, states management and properties",
             link:"https://glittering-bavarois-03a135.netlify.app/",
             technologies:["Javascript","React-bootstrap"]
             
@@ -207,7 +207,7 @@ const Projects = () => {
             id:9,
             title:"RollingBank",
             image:[Imagen41,Imagen42,Imagen43,Imagen44,Imagen45],
-            text:"Proyecto desarrollado como practica para Rolling Code School",
+            text:"Project developed for practice on Rolling Code School",
             link:"https://rolling-bank-mauricio-soria.netlify.app/",
             technologies:["Javascript","css"]
             
@@ -216,7 +216,7 @@ const Projects = () => {
             id:10,
             title:"Panaderia cocu",
             image:[Imagen46,Imagen47,Imagen48,Imagen49,Imagen50],
-            text:"Proyecto desarrollado como practica para Rolling Code School",
+            text:"Project developed for practice on Rolling Code School",
             link:"https://panaderia-cocu-mauricio-soria.netlify.app",
             technologies:["Javascript","css"]
             
@@ -225,7 +225,7 @@ const Projects = () => {
             id:11,
             title:"Paleta de colores",
             image:[Imagen51,Imagen52/* ,Imagen53,Imagen54,Imagen55 */],
-            text:"Practica con React, manejo de estados y propiedades",
+            text:"This project was developed for practice with React js, states management and properties",
             link:"https://timely-caramel-3cb573.netlify.app/",
             technologies:["Javascript","Bootstrap"]
             
@@ -234,7 +234,7 @@ const Projects = () => {
             id:13,
             title:"Pokedex API",
             image:[Imagen61/* ,Imagen62,Imagen63,Imagen64,Imagen65 */],
-            text:"Proyecto desarrollado como practica",
+            text:"This project was developed for practice with React js, states management and properties",
             link:"https://dazzling-klepon-349058.netlify.app/",
             technologies:["Javascript","css"]
             
@@ -243,7 +243,7 @@ const Projects = () => {
             id:14,
             title:"Pokedex blog",
             image:[Imagen66,Imagen67,Imagen68,Imagen69,Imagen70],
-            text:"Proyecto desarrollado como practica para Rolling Code School",
+            text:"Project developed for practice on Rolling Code School",
             link:"https://tranquil-sunburst-fb519a.netlify.app",
             technologies:["Javascript","React-bootstrap"]
             
@@ -261,7 +261,7 @@ const Projects = () => {
             id:16,
             title:"Cronometro",
             image:[Imagen76,Imagen77/* ,Imagen78,Imagen79,Imagen80 */],
-            text:"Desarrollada como practica con javascript y conceptos de maquetado y estilizado",
+            text:"Developed as a practice with javascript and layout and styling concepts",
             link:"https://fluffy-basbousa-2315b6.netlify.app/",
             technologies:["Javascript","css"]
             
@@ -270,7 +270,7 @@ const Projects = () => {
             id:17,
             title:"Temporizador",
             image:[Imagen81,Imagen82/* ,Imagen83,Imagen84,Imagen85 */],
-            text:"Desarrollada como practica con javascript y conceptos de maquetado y estilizado",
+            text:"Developed as a practice with javascript and layout and styling concepts",
             link:"https://brilliant-squirrel-3e4f22.netlify.app",
             technologies:["Javascript","css"]
             
@@ -279,7 +279,7 @@ const Projects = () => {
             id:18,
             title:"Funko pops blog",
             image:[Imagen86,Imagen87/* ,Imagen88,Imagen89,Imagen90 */],
-            text:"Desarrollada como practica con html y conceptos de maquetado y estilizado",
+            text:"Developed as a practice with javascript and layout and styling concepts",
             link:"https://galeria-de-funkos-mauricio-soria.netlify.app",
             technologies:["Javascript","css"]
             

@@ -17,7 +17,7 @@ const Menu = ({CambioIdioma,idioma}) => {
                         <Nav className="ms-auto" style={{ maxHeight: '100px' }} navbarScroll>
                                 <Container className='m-auto switch'>
                                     <Form.Check
-                                        className='text-white mt-1 switch'
+                                        className='p-2 text-white  switch'
                                         type="switch"
                                         id="custom-switch"
                                         label={idioma ? ("EN") : ("ES")}
