@@ -28,6 +28,7 @@ const Menu = ({CambioIdioma,idioma}) => {
                                     />
                                 </Container>
                             <Nav.Link href="#inicio" onClick={()=>{changeStateMenu}} className='' >{idioma?("Home"):("Inicio")}</Nav.Link>
+                            <Nav.Link href="#proyectos" onClick={()=>{changeStateMenu}} className='' >{idioma?("Projects"):("Proyectos")}</Nav.Link>
                             <Nav.Link href="#contacto" onClick={()=>{changeStateMenu}} className='' to >{idioma?("Contact"):("Contacto")}</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
