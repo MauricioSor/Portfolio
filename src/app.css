@@ -7,10 +7,12 @@
     margin: auto;
     overflow: hidden;
 }
-img{
+img, h1 , p , h2 ,h3, h4 ,b ,h5, li ,label{
     user-select: none;
     pointer-events: none;
+    
 }
+
 .slider .slide-track {
     display: flex;
     animation: scroll 15s linear infinite;
