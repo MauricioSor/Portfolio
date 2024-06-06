@@ -7,7 +7,10 @@
     margin: auto;
     overflow: hidden;
 }
-
+img{
+    user-select: none;
+    pointer-events: none;
+}
 .slider .slide-track {
     display: flex;
     animation: scroll 15s linear infinite;
@@ -16,6 +19,10 @@
 }
 .slider :hover{
     animation-play-state: paused;
+    user-select: none;    
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 .slider .slide {
     width: 200px;

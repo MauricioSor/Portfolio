@@ -287,12 +287,12 @@ const Proyectos = () => {
     ])
     return (
         <>
-            <Container id="proyectos" className="FadeInLeft  bg-black container my-2 py-3 ">
+            <Container id="proyectos"draggable={false} className="FadeInLeft  bg-black container my-2 py-3 ">
                 <h2 className="texto mb-3">Mis proyectos</h2>
-                <Row className="container m-auto d-flex justify-content-center align-items-center">
+                <Row draggable={false} className="container m-auto d-flex justify-content-center align-items-center">
                 {proyectos.map((item) =>(
                     <Col key={item.id}  lg={3} md={5} sm={12} className="mb-3">
-                    <CardsProyectos item={item} />
+                    <CardsProyectos draggable={false} item={item} />
                 </Col>
                 ))}
                 </Row>

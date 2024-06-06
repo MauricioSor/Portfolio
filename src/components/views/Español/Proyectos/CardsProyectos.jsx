@@ -5,10 +5,10 @@ const CardsProyectos = ({ item }) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <Container className="" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <Container className="" draggable={false} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
             <Card
                 style={{ width: '18rem', height: "27rem" }}
-                className='m-auto proyecto'>
+                className='m-auto proyecto'draggable={false}>
                 <Card.Title className='text-center my-2 fs-4'><b>{item.title}</b></Card.Title>
                 <Card.Body className='text-center d-flex justify-content-center flex-column'>
                     <Carousel interval={isHovered ? 1000 : null}>
