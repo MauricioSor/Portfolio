@@ -14,7 +14,9 @@
     width: calc(200px *9);
     -webkit-animation: scroll 15s linear infinite;
 }
-
+.slider :hover{
+    animation-play-state: paused;
+}
 .slider .slide {
     width: 200px;
 }
