@@ -7,6 +7,11 @@
     margin: auto;
     overflow: hidden;
 }
+img, h1 , p , h2 ,h3, h4 ,b ,h5, li ,label{
+    user-select: none;
+    pointer-events: none;
+    
+}
 
 .slider .slide-track {
     display: flex;
@@ -16,6 +21,10 @@
 }
 .slider :hover{
     animation-play-state: paused;
+    user-select: none;    
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 .slider .slide {
     width: 200px;
