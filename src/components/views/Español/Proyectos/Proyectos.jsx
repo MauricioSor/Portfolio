@@ -105,7 +105,7 @@ const Proyectos = () => {
             id:23,
             title:"MauIA",
             image:[Desarrollo],
-            text:"Aplicacion web integrando IA de microsoft",
+            text:"Aplicacion web integrando IA de Microsoft",
             link:"",
             technologies:["React","Javascript","MongoDB","Node","Express"]
         },
