@@ -97,9 +97,26 @@ import Imagen92 from "../../../../assets/images/proyectos/MlClon/mlclon4.png"
 import Imagen93 from "../../../../assets/images/proyectos/MlClon/mlclon2.png"
 import Imagen94 from "../../../../assets/images/proyectos/MlClon/mlclon3.png"
 import Imagen95 from "../../../../assets/images/proyectos/MlClon/mlclon5.png"
+import Desarrollo from "../../../../assets/images/proyectos/Desarrollo/enDesarrollo.png"
 //#endregion
 const Projects = () => {
     const [proyectos,setProyectos]=useState([
+        {
+            id:23,
+            title:"MauIA",
+            image:[Desarrollo],
+            text:"Web Application including IA by Microsoft",
+            link:"",
+            technologies:["React","Javascript","MongoDB","Node","Express"]
+        },
+        {
+            id:22,
+            title:"La tienda",
+            image:[Desarrollo],
+            text:"System management to inventory developed to learn and practice desktop applications, databases with SQL server, Store procedures, and responsive design",
+            link:"",
+            technologies:["C#",".Net 8.0","SqlServer","Windows Form","Arq.en capas"]
+        },
         {
             id:21,
             title:"Mau's Restobar",
