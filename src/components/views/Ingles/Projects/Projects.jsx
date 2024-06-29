@@ -97,7 +97,7 @@ import Imagen92 from "../../../../assets/images/proyectos/MlClon/mlclon4.png"
 import Imagen93 from "../../../../assets/images/proyectos/MlClon/mlclon2.png"
 import Imagen94 from "../../../../assets/images/proyectos/MlClon/mlclon3.png"
 import Imagen95 from "../../../../assets/images/proyectos/MlClon/mlclon5.png"
-import Desarrollo from "../../../../assets/images/proyectos/Desarrollo/enDesarrollo.png"
+import Desarrollo from "../../../../assets/images/proyectos/Desarrollo/inProgress.png"
 //#endregion
 const Projects = () => {
     const [proyectos,setProyectos]=useState([
