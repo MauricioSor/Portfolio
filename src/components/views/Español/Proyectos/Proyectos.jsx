@@ -98,24 +98,27 @@ import Imagen93 from "../../../../assets/images/proyectos/MlClon/mlclon2.png"
 import Imagen94 from "../../../../assets/images/proyectos/MlClon/mlclon3.png"
 import Imagen95 from "../../../../assets/images/proyectos/MlClon/mlclon5.png"
 import Desarrollo from "../../../../assets/images/proyectos/Desarrollo/enDesarrollo.png"
+import Imagen96 from "../../../../assets/images/proyectos/Maumqtt/cap1.png"
+import Imagen97 from "../../../../assets/images/proyectos/Maumqtt/cap2.png"
+import Imagen98 from "../../../../assets/images/proyectos/Maumqtt/cap3.png"
 //#endregion
 const Proyectos = () => {
     const [proyectos,setProyectos]=useState([
         {
             id:23,
-            title:"MauIA",
-            image:[Desarrollo],
-            text:"Aplicacion web integrando IA de Microsoft",
-            link:"",
-            technologies:["React","Javascript","MongoDB","Node","Express"]
-        },
-        {
-            id:22,
             title:"La tienda",
             image:[Desarrollo],
             text:"Sistema de gestión de inventario desarrollado para adquirir conocimientos en aplicaciones de escritorio, bases de dato SQL, Store procedures y diseño responsivo",
             link:"",
             technologies:["C#",".Net 8.0","SqlServer","Windows Form","Arq.en capas"]
+        },
+        {
+            id:22,
+            title:"MauMqtt",
+            image:[Imagen96,Imagen97,Imagen98],
+            text:"Aplicacion web integrando Mqtt.js del lado del cliente y servidor para enviar y recibir mensajes de los topicos determinados",
+            link:"https://mqtt-client-react.vercel.app/",
+            technologies:["React","Javascript","Mqtt.js","Node"]
         },
         {
             id:21,
@@ -305,7 +308,7 @@ const Proyectos = () => {
     return (
         <>
             <Container id="proyectos"draggable={false} className="FadeInLeft  bg-black container my-2 py-3 ">
-                <h2 className="texto mb-3">Mis proyectos</h2>
+                <h2 className="texto mb-3"><u>Mis proyectos</u></h2>
                 <Row draggable={false} className="container m-auto d-flex justify-content-center align-items-center">
                 {proyectos.map((item) =>(
                     <Col key={item.id}  lg={3} md={5} sm={12} className="mb-3">
