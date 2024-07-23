@@ -109,7 +109,7 @@ const Projects = () => {
             id:23,
             title:"La tienda",
             image:[Desarrollo],
-            text:"Sistema de gestión de inventario desarrollado para adquirir conocimientos en aplicaciones de escritorio, bases de dato SQL, Store procedures y diseño responsivo",
+            text:"System management to inventory developed to learn and practice desktop applications, databases with SQL server, Store procedures, and responsive design",
             link:"",
             technologies:["C#",".Net 8.0","SqlServer","Windows Form","Arq.en capas"]
         },
