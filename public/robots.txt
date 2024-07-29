@@ -1,0 +1,5 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/private
+User-agent: *
+Allow: /
+Sitemap: https://mauriciosor.netlify.app/
