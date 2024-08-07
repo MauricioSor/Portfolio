@@ -20,6 +20,9 @@ import Imagen18 from "../../../../assets/images/tecnologias/netFramework.png"
 import Imagen19 from "../../../../assets/images/tecnologias/mysql.png"
 import Imagen20 from "../../../../assets/images/tecnologias/figma.png"
 import Imagen21 from "../../../../assets/images/tecnologias/redux.png"
+import Imagen22 from "../../../../assets/images/tecnologias/mqtt.png"
+import Imagen23 from "../../../../assets/images/tecnologias/firebase.png"
+import Imagen24 from "../../../../assets/images/tecnologias/websocket.jpg"
 import ContenedorTec from './ContainerTechs';
 
 const Techs = () => {
@@ -27,9 +30,9 @@ const Techs = () => {
         <>
         <div className='shadow-lg p-3 d-flex justify-content-center align-items-center slider bg-matrix'>
             <div className="slide-track">
-                <ContenedorTec Imagen1={Imagen1}Imagen2={Imagen2}Imagen3={Imagen3}Imagen4={Imagen4}Imagen5={Imagen5}Imagen6={Imagen6}Imagen7={Imagen7}Imagen8={Imagen8}Imagen9={Imagen9}Imagen10={Imagen10}Imagen11={Imagen11}Imagen12={Imagen12}Imagen13={Imagen13}Imagen14={Imagen14}Imagen15={Imagen15}Imagen16={Imagen16}Imagen17={Imagen17}Imagen18={Imagen18}Imagen19={Imagen19} Imagen20={Imagen20} Imagen21={Imagen21}/>
-                <ContenedorTec Imagen1={Imagen1}Imagen2={Imagen2}Imagen3={Imagen3}Imagen4={Imagen4}Imagen5={Imagen5}Imagen6={Imagen6}Imagen7={Imagen7}Imagen8={Imagen8}Imagen9={Imagen9}Imagen10={Imagen10}Imagen11={Imagen11}Imagen12={Imagen12}Imagen13={Imagen13}Imagen14={Imagen14}Imagen15={Imagen15}Imagen16={Imagen16}Imagen17={Imagen17}Imagen18={Imagen18}Imagen19={Imagen19} Imagen20={Imagen20} Imagen21={Imagen21}/>
-                <ContenedorTec Imagen1={Imagen1}Imagen2={Imagen2}Imagen3={Imagen3}Imagen4={Imagen4}Imagen5={Imagen5}Imagen6={Imagen6}Imagen7={Imagen7}Imagen8={Imagen8}Imagen9={Imagen9}Imagen10={Imagen10}Imagen11={Imagen11}Imagen12={Imagen12}Imagen13={Imagen13}Imagen14={Imagen14}Imagen15={Imagen15}Imagen16={Imagen16}Imagen17={Imagen17}Imagen18={Imagen18}Imagen19={Imagen19} Imagen20={Imagen20} Imagen21={Imagen21}/>
+                <ContenedorTec Imagen1={Imagen1}Imagen2={Imagen2}Imagen3={Imagen3}Imagen4={Imagen4}Imagen5={Imagen5}Imagen6={Imagen6}Imagen7={Imagen7}Imagen8={Imagen8}Imagen9={Imagen9}Imagen10={Imagen10}Imagen11={Imagen11}Imagen12={Imagen12}Imagen13={Imagen13}Imagen14={Imagen14}Imagen15={Imagen15}Imagen16={Imagen16}Imagen17={Imagen17}Imagen18={Imagen18}Imagen19={Imagen19} Imagen20={Imagen20} Imagen21={Imagen21}Imagen22={Imagen22} Imagen23={Imagen23}Imagen24={Imagen24}/>
+                <ContenedorTec Imagen1={Imagen1}Imagen2={Imagen2}Imagen3={Imagen3}Imagen4={Imagen4}Imagen5={Imagen5}Imagen6={Imagen6}Imagen7={Imagen7}Imagen8={Imagen8}Imagen9={Imagen9}Imagen10={Imagen10}Imagen11={Imagen11}Imagen12={Imagen12}Imagen13={Imagen13}Imagen14={Imagen14}Imagen15={Imagen15}Imagen16={Imagen16}Imagen17={Imagen17}Imagen18={Imagen18}Imagen19={Imagen19} Imagen20={Imagen20} Imagen21={Imagen21}Imagen22={Imagen22} Imagen23={Imagen23}Imagen24={Imagen24}/>
+                <ContenedorTec Imagen1={Imagen1}Imagen2={Imagen2}Imagen3={Imagen3}Imagen4={Imagen4}Imagen5={Imagen5}Imagen6={Imagen6}Imagen7={Imagen7}Imagen8={Imagen8}Imagen9={Imagen9}Imagen10={Imagen10}Imagen11={Imagen11}Imagen12={Imagen12}Imagen13={Imagen13}Imagen14={Imagen14}Imagen15={Imagen15}Imagen16={Imagen16}Imagen17={Imagen17}Imagen18={Imagen18}Imagen19={Imagen19} Imagen20={Imagen20} Imagen21={Imagen21}Imagen22={Imagen22} Imagen23={Imagen23}Imagen24={Imagen24}/>
             </div>
         </div>
         </>
